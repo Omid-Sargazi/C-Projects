@@ -4,11 +4,16 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Enter a number");
-        int num1=0;
-        string num = Console.ReadLine();
-        num1 = Convert.ToInt32(num);
-        num1++;
-        Console.WriteLine("" + num1);
+        String1();
+    }
+
+
+    private static void String1()
+    {
+        string fname="omid";
+        string lname="Sa";
+        string fullName = fname+" "+lname;
+        Console.WriteLine("" + fullName);
+
     }
 }
