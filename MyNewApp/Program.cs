@@ -5,6 +5,7 @@ class Program
     static void Main(string[] args)
     {
         String1();
+        String2();
     }
 
 
@@ -15,5 +16,11 @@ class Program
         string fullName = fname+" "+lname;
         Console.WriteLine("" + fullName);
 
+    }
+
+    private static void String2()
+    {
+        string message = "Hello, World";
+        Console.WriteLine("Lengths  of the string is: "+message.Length);
     }
 }
