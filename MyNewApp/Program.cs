@@ -31,4 +31,11 @@ class Program
         Console.WriteLine("Lowercase"+ message.ToLower());
         Console.WriteLine("UpperCase"+ message.ToUpper());
     }
+
+    private static void String4()
+    {
+        string message = "omid Sargazi is a .net expertise";
+        string subString = message.Substring(2,4);
+        Console.WriteLine(""+ subString);
+    }
 }
