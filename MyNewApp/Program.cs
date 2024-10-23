@@ -14,7 +14,9 @@ class Program
         // Console.WriteLine("********************");
         // Console.ResetColor();
         // program.String7();
-        String8();
+        // String8();
+        String9();
+        Variables();
     }
 
 
@@ -72,6 +74,24 @@ class Program
         {
             Console.WriteLine(word);
         }
+    }
+
+    private static void String9()
+    {
+        string message = "CSharp";
+        char[] charArray = message.ToCharArray();
+        Array.Reverse(charArray);
+        string reverseString = new string(charArray);
+        Console.WriteLine(""+ reverseString);
+    }
+
+    private static void Variables()
+    {
+        int age=42;
+        double height=169;
+        bool isLearning = true;
+        string name="omid";
+        Console.WriteLine($"Name:{name},Age:{age}, height: {height}, Learning: {isLearning}, name: {name}");
     }
 
 }
