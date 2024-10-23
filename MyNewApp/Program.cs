@@ -6,6 +6,7 @@ class Program
     {
         String1();
         String2();
+        String3();
     }
 
 
@@ -22,5 +23,12 @@ class Program
     {
         string message = "Hello, World";
         Console.WriteLine("Lengths  of the string is: "+message.Length);
+    }
+
+    private static void String3()
+    {
+        string message = "HEllO, wORlD";
+        Console.WriteLine("Lowercase"+ message.ToLower());
+        Console.WriteLine("UpperCase"+ message.ToUpper());
     }
 }
