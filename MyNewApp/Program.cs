@@ -4,12 +4,16 @@ class Program
 {
     static void Main(string[] args)
     {
-        String1();
-        String2();
-        String3();
-        String4();
+        // String1();
+        // String2();
+        // String3();
+        // String4();
         Program program = new Program();
         program.String6();
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.WriteLine("********************");
+        Console.ResetColor();
+        program.String7();
     }
 
 
@@ -52,4 +56,12 @@ class Program
             Console.WriteLine("The string does not contain 'C#'");
         }
     } 
+
+    private void String7()
+    {
+        string message ="Hello World";
+        string newMassage = message.Replace("World", "omid");
+        Console.WriteLine("Updated message  : "+ newMassage);
+    }
+
 }
