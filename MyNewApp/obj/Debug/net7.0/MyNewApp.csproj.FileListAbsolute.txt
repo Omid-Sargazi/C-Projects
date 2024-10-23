@@ -1,0 +1,14 @@
+/home/omidsa/Programmings/CSharp/master/MyNewApp/bin/Debug/net7.0/MyNewApp
+/home/omidsa/Programmings/CSharp/master/MyNewApp/bin/Debug/net7.0/MyNewApp.deps.json
+/home/omidsa/Programmings/CSharp/master/MyNewApp/bin/Debug/net7.0/MyNewApp.runtimeconfig.json
+/home/omidsa/Programmings/CSharp/master/MyNewApp/bin/Debug/net7.0/MyNewApp.dll
+/home/omidsa/Programmings/CSharp/master/MyNewApp/bin/Debug/net7.0/MyNewApp.pdb
+/home/omidsa/Programmings/CSharp/master/MyNewApp/obj/Debug/net7.0/MyNewApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/omidsa/Programmings/CSharp/master/MyNewApp/obj/Debug/net7.0/MyNewApp.AssemblyInfoInputs.cache
+/home/omidsa/Programmings/CSharp/master/MyNewApp/obj/Debug/net7.0/MyNewApp.AssemblyInfo.cs
+/home/omidsa/Programmings/CSharp/master/MyNewApp/obj/Debug/net7.0/MyNewApp.csproj.CoreCompileInputs.cache
+/home/omidsa/Programmings/CSharp/master/MyNewApp/obj/Debug/net7.0/MyNewApp.dll
+/home/omidsa/Programmings/CSharp/master/MyNewApp/obj/Debug/net7.0/refint/MyNewApp.dll
+/home/omidsa/Programmings/CSharp/master/MyNewApp/obj/Debug/net7.0/MyNewApp.pdb
+/home/omidsa/Programmings/CSharp/master/MyNewApp/obj/Debug/net7.0/MyNewApp.genruntimeconfig.cache
+/home/omidsa/Programmings/CSharp/master/MyNewApp/obj/Debug/net7.0/ref/MyNewApp.dll
