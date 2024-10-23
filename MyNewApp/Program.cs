@@ -8,12 +8,13 @@ class Program
         // String2();
         // String3();
         // String4();
-        Program program = new Program();
-        program.String6();
-        Console.ForegroundColor = ConsoleColor.Red;
-        Console.WriteLine("********************");
-        Console.ResetColor();
-        program.String7();
+        // Program program = new Program();
+        // program.String6();
+        // Console.ForegroundColor = ConsoleColor.Red;
+        // Console.WriteLine("********************");
+        // Console.ResetColor();
+        // program.String7();
+        String8();
     }
 
 
@@ -62,6 +63,15 @@ class Program
         string message ="Hello World";
         string newMassage = message.Replace("World", "omid");
         Console.WriteLine("Updated message  : "+ newMassage);
+    }
+    private static void String8()
+    {
+        string sentence = "C# is a powerful programming language";
+        string[] words = sentence.Split(" ");
+        foreach(string word in words)
+        {
+            Console.WriteLine(word);
+        }
     }
 
 }
