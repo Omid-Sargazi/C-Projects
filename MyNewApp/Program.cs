@@ -7,6 +7,9 @@ class Program
         String1();
         String2();
         String3();
+        String4();
+        Program program = new Program();
+        program.String6();
     }
 
 
@@ -38,4 +41,15 @@ class Program
         string subString = message.Substring(2,4);
         Console.WriteLine(""+ subString);
     }
+
+    private void String6()
+    {
+        string message = "Welcome to C# programming!";
+        if(message.Contains("C#"))
+        {
+            Console.WriteLine("The String contains C#");
+        }else{
+            Console.WriteLine("The string does not contain 'C#'");
+        }
+    } 
 }
