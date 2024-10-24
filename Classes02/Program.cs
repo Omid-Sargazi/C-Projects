@@ -20,10 +20,11 @@ namespace VehicleNamespace
             // Car04 myCar = new Car04();
             // myCar.PrintDetails();
 
-            Car05 myCar = new Car05("Toyota");
-            Car05 myCar02 = new Car05("Ford");
-            Car05.PrintCarCount();
-
+            // Car05 myCar = new Car05("Toyota");
+            // Car05 myCar02 = new Car05("Ford");
+            // Car05.PrintCarCount();
+            
+            Console.WriteLine($"Cofiguration Version: {Configuration.Version}");
 
 
         }
@@ -113,4 +114,17 @@ namespace VehicleNamespace
         Console.WriteLine($"Total Cars {CarCount}");
     }
    }
+
+   public class Configuration
+   {
+    public static string Version;
+
+    static Configuration()
+    {
+        Version= "1.01.2.3";
+    }
+    
+   }
+
+
 }
