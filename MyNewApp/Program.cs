@@ -18,7 +18,8 @@ class Program
         // String9();
         // Variables();
         // ifSentence();
-        OddEven();
+        // OddEven();
+        SimpleCalculator();
     }
 
 
@@ -125,6 +126,45 @@ class Program
         }else{
             Console.WriteLine($"{number} is an odd number");
         }
+    }
+
+    private static void SimpleCalculator()
+    {
+        Console.WriteLine("Enter two numbe: ");
+        double num1 = double.Parse(Console.ReadLine());
+
+        double num2 = double.Parse(Console.ReadLine());
+
+        Console.WriteLine("Enter operation (+,-,/,*): ");
+
+        char operation = Console.ReadLine()[0];
+
+        double result=0;
+
+        switch(operation)
+        {
+            case '+':
+            result = num1+num2;
+            break;
+
+            case '-':
+            result = num1-num2;
+            break;
+
+            case '*':
+            result = num1 * num2;
+            break;
+
+            case '/':
+            result = num1/num2;
+            break;
+
+            default:
+            Console.WriteLine("Invalid Operation");
+            break;
+        }
+
+        Console.WriteLine($"Result is {result}");
     }
 
 }
