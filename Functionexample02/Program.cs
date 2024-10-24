@@ -1,5 +1,8 @@
 ﻿using System;
 
+namespace VehicleNamespace
+{
+
 class Program
 {
     static void Main(string[] args)
@@ -16,4 +19,5 @@ class Program
 
         double sqrt 
     }
+}
 }
