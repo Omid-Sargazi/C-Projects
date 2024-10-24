@@ -15,8 +15,10 @@ class Program
         // Console.ResetColor();
         // program.String7();
         // String8();
-        String9();
-        Variables();
+        // String9();
+        // Variables();
+        // ifSentence();
+        OddEven();
     }
 
 
@@ -92,6 +94,37 @@ class Program
         bool isLearning = true;
         string name="omid";
         Console.WriteLine($"Name:{name},Age:{age}, height: {height}, Learning: {isLearning}, name: {name}");
+    }
+
+
+    private static void ifSentence()
+    {
+        int number=10;
+        if(number>5)
+        {
+            Console.WriteLine("Number is greater than 5");
+        }else
+        {
+            Console.WriteLine("Number is 5 or less than 5");
+        }
+
+        for(int i=0;i<5;i++)
+        {
+            Console.WriteLine($"Iteration {i}");
+        }
+    }
+
+    private static void OddEven()
+    {
+        Console.WriteLine("Enter a number");
+        int number = int.Parse(Console.ReadLine());
+
+        if(number%2==0)
+        {
+            Console.WriteLine($"{number} is an even number.");
+        }else{
+            Console.WriteLine($"{number} is an odd number");
+        }
     }
 
 }
