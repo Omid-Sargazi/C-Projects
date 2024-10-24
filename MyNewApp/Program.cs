@@ -32,9 +32,10 @@ class Program
         // StringToChar();
         // Palindrome();
         // PrimeNumber();
-        Console.WriteLine("Enetr a number.");
-        int num = int.Parse(Console.ReadLine());
-        Console.WriteLine($"Sum of natural numbers up to {num} is {Sum(num)}");
+        // Console.WriteLine("Enetr a number.");
+        // int num = int.Parse(Console.ReadLine());
+        // Console.WriteLine($"Sum of natural numbers up to {num} is {Sum(num)}");
+        FindDivisorsNumber();
     }
 
 
@@ -348,6 +349,22 @@ class Program
         else
         {
             return num + Sum(num-1);
+        }
+    }
+
+    private static void FindDivisorsNumber()
+    {
+        Console.WriteLine("Enter a number: ");
+        int num = int.Parse(Console.ReadLine());
+
+        Console.WriteLine("Divisors are:");
+
+        for(int i=1;i<=num;i++)
+        {
+            if(num%i==0)
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }
