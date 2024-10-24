@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Reflection.Emit;
 
 class Program
 {
@@ -21,7 +22,9 @@ class Program
         // OddEven();
         // SimpleCalculator();
         // CheckLeapYear();
-        MaximumThreeNumbers();
+        // MaximumThreeNumbers();
+        // CountNumberDigits();
+        Factorial();
     }
 
 
@@ -200,5 +203,33 @@ class Program
 
         Console.WriteLine($"Max is {max}");
 
+    }
+
+    private static void CountNumberDigits()
+    {
+        Console.WriteLine("Enter an Integer:");
+
+        int number = int.Parse(Console.ReadLine());
+        int count=0;
+        while(number !=0)
+        {
+            number /=10;
+            count++;
+        }
+        Console.WriteLine($"The number of digits is {count}");
+
+    } 
+
+    private static void Factorial()
+    {
+        Console.WriteLine("Enter a number");
+        int num = int.Parse(Console.ReadLine());
+        int factorial=1;
+
+        for(int i=1;i<=num;i++)
+        {
+            factorial*=i;
+        }
+        Console.WriteLine($"Factorial of {num} is {factorial}");
     }
 }
