@@ -22,6 +22,14 @@ class Program
         Console.ResetColor();
         Console.WriteLine("Double multiply two number"+Multiply(3.5,2.5));
         Console.WriteLine("int multiply two number"+Multiply(2,3));
+
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.WriteLine("****************************");
+        Console.ResetColor();
+
+        int quotient, remainder;
+        Divide(10,3, out quotient, out remainder);
+        Console.WriteLine($"Quotient: +{quotient}, Reminder: {remainder}");
     }
 
     static void PrintMessage()
@@ -58,5 +66,11 @@ class Program
     static double Multiply(double a, double b)
     {
         return a*b;
+    }
+
+    static void Divide(int a, int b, out int quotient, out int remainder)
+    {
+        quotient = a/b;
+        remainder = a%b;
     }
 }
