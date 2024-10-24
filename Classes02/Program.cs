@@ -17,8 +17,12 @@ namespace VehicleNamespace
             // Car03 myCar = new Car03{Model="BMW",Year=2024};
             // myCar.PrintDetail();
 
-            Car04 myCar = new Car04();
-            myCar.PrintDetails();
+            // Car04 myCar = new Car04();
+            // myCar.PrintDetails();
+
+            Car05 myCar = new Car05("Toyota");
+            Car05 myCar02 = new Car05("Ford");
+            Car05.PrintCarCount();
 
 
 
@@ -94,4 +98,19 @@ namespace VehicleNamespace
         }
     }
    
+   public class Car05
+   {
+    public static int CarCount=0;
+    public string Model{get;set;}
+
+    public Car05(string model)
+    {
+        Model=model;
+        CarCount++;
+    }
+    public static void PrintCarCount()
+    {
+        Console.WriteLine($"Total Cars {CarCount}");
+    }
+   }
 }
