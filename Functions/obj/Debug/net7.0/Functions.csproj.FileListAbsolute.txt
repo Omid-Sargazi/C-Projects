@@ -1,0 +1,14 @@
+/home/omidsa/Programmings/CSharp/master/Functions/obj/Debug/net7.0/Functions.GeneratedMSBuildEditorConfig.editorconfig
+/home/omidsa/Programmings/CSharp/master/Functions/obj/Debug/net7.0/Functions.AssemblyInfoInputs.cache
+/home/omidsa/Programmings/CSharp/master/Functions/obj/Debug/net7.0/Functions.AssemblyInfo.cs
+/home/omidsa/Programmings/CSharp/master/Functions/obj/Debug/net7.0/Functions.csproj.CoreCompileInputs.cache
+/home/omidsa/Programmings/CSharp/master/Functions/bin/Debug/net7.0/Functions
+/home/omidsa/Programmings/CSharp/master/Functions/bin/Debug/net7.0/Functions.deps.json
+/home/omidsa/Programmings/CSharp/master/Functions/bin/Debug/net7.0/Functions.runtimeconfig.json
+/home/omidsa/Programmings/CSharp/master/Functions/bin/Debug/net7.0/Functions.dll
+/home/omidsa/Programmings/CSharp/master/Functions/bin/Debug/net7.0/Functions.pdb
+/home/omidsa/Programmings/CSharp/master/Functions/obj/Debug/net7.0/Functions.dll
+/home/omidsa/Programmings/CSharp/master/Functions/obj/Debug/net7.0/refint/Functions.dll
+/home/omidsa/Programmings/CSharp/master/Functions/obj/Debug/net7.0/Functions.pdb
+/home/omidsa/Programmings/CSharp/master/Functions/obj/Debug/net7.0/Functions.genruntimeconfig.cache
+/home/omidsa/Programmings/CSharp/master/Functions/obj/Debug/net7.0/ref/Functions.dll
