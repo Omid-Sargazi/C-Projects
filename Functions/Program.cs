@@ -8,6 +8,10 @@ class Program
         int result = addTwoNumber(2,3);
         Console.WriteLine("Add to number is: "+result);
         Console.WriteLine("Square a number is: "+Square(10));
+
+        int num=5;
+        IncrementValue(num);
+        Console.WriteLine("After method call: "+num);
     }
 
     static void PrintMessage()
@@ -24,5 +28,10 @@ class Program
     private static int Square(int a)
     {
         return a*a;
+    }
+
+    static void IncrementValue(int a)
+    {
+        a+=1;
     }
 }
