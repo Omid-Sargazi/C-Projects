@@ -24,7 +24,9 @@ class Program
         // CheckLeapYear();
         // MaximumThreeNumbers();
         // CountNumberDigits();
-        Factorial();
+        // Factorial();
+        // SumOfDigits();
+        Fibonacci();
     }
 
 
@@ -245,5 +247,23 @@ class Program
             number/=10;
         }
         Console.WriteLine($"The sum of digits is {sum}");
+    }
+
+    private static void Fibonacci()
+    {
+        Console.WriteLine("Enter the number of terms: ");
+        int terms =int.Parse(Console.ReadLine());
+        int num1=0;
+        int num2=1;
+        int result;
+            Console.WriteLine("Fibonacci Series:");
+        for(int i=1;i<=terms;i++)
+        {   
+            Console.WriteLine(num1);
+            result = num1+num2;
+            num1=num2;
+            num2=result;
+
+        }
     }
 }
