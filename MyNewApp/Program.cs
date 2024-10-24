@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Reflection.Emit;
+using System.Runtime.ConstrainedExecution;
 
 class Program
 {
@@ -26,7 +27,9 @@ class Program
         // CountNumberDigits();
         // Factorial();
         // SumOfDigits();
-        Fibonacci();
+        // Fibonacci();
+        // ReverseString();
+        StringToChar();
     }
 
 
@@ -264,6 +267,27 @@ class Program
             num1=num2;
             num2=result;
 
+        }
+    }
+
+    private static void ReverseString()
+    {
+        Console.WriteLine("Enter a string");
+        string input = Console.ReadLine();
+        char[] cahrArray = input.ToCharArray();
+        Array.Reverse(cahrArray);
+        string reversed = new string(cahrArray);
+        Console.WriteLine($"Reversed string {reversed}");
+    }
+
+    private static void StringToChar()
+    {
+        Console.WriteLine("Enter a String:");
+        string name= Console.ReadLine();
+        
+        foreach(char c in name)
+        {
+            Console.WriteLine($" chars are {c}");
         }
     }
 }
