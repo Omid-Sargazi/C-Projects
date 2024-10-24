@@ -1,0 +1,14 @@
+/home/omidsa/Programmings/CSharp/master/FunctionExamples/obj/Debug/net7.0/FunctionExamples.GeneratedMSBuildEditorConfig.editorconfig
+/home/omidsa/Programmings/CSharp/master/FunctionExamples/obj/Debug/net7.0/FunctionExamples.AssemblyInfoInputs.cache
+/home/omidsa/Programmings/CSharp/master/FunctionExamples/obj/Debug/net7.0/FunctionExamples.AssemblyInfo.cs
+/home/omidsa/Programmings/CSharp/master/FunctionExamples/obj/Debug/net7.0/FunctionExamples.csproj.CoreCompileInputs.cache
+/home/omidsa/Programmings/CSharp/master/FunctionExamples/bin/Debug/net7.0/FunctionExamples
+/home/omidsa/Programmings/CSharp/master/FunctionExamples/bin/Debug/net7.0/FunctionExamples.deps.json
+/home/omidsa/Programmings/CSharp/master/FunctionExamples/bin/Debug/net7.0/FunctionExamples.runtimeconfig.json
+/home/omidsa/Programmings/CSharp/master/FunctionExamples/bin/Debug/net7.0/FunctionExamples.dll
+/home/omidsa/Programmings/CSharp/master/FunctionExamples/bin/Debug/net7.0/FunctionExamples.pdb
+/home/omidsa/Programmings/CSharp/master/FunctionExamples/obj/Debug/net7.0/FunctionExamples.dll
+/home/omidsa/Programmings/CSharp/master/FunctionExamples/obj/Debug/net7.0/refint/FunctionExamples.dll
+/home/omidsa/Programmings/CSharp/master/FunctionExamples/obj/Debug/net7.0/FunctionExamples.pdb
+/home/omidsa/Programmings/CSharp/master/FunctionExamples/obj/Debug/net7.0/FunctionExamples.genruntimeconfig.cache
+/home/omidsa/Programmings/CSharp/master/FunctionExamples/obj/Debug/net7.0/ref/FunctionExamples.dll
