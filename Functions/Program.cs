@@ -12,6 +12,10 @@ class Program
         int num=5;
         IncrementValue(num);
         Console.WriteLine("After method call: "+num);
+
+        int number=5;
+        IncrementRef(ref number);
+        Console.WriteLine("After method call: "+number);
     }
 
     static void PrintMessage()
@@ -31,6 +35,11 @@ class Program
     }
 
     static void IncrementValue(int a)
+    {
+        a+=1;
+    }
+
+    static void IncrementRef(ref int a)
     {
         a+=1;
     }
