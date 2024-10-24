@@ -29,7 +29,8 @@ class Program
         // SumOfDigits();
         // Fibonacci();
         // ReverseString();
-        StringToChar();
+        // StringToChar();
+        Palindrome();
     }
 
 
@@ -288,6 +289,21 @@ class Program
         foreach(char c in name)
         {
             Console.WriteLine($" chars are {c}");
+        }
+    }
+
+    private static void Palindrome()
+    {
+        Console.WriteLine("Enter a string...");
+        string input = Console.ReadLine();
+        string reversed = new string(input.ToCharArray().Reverse().ToArray());
+
+        if(input==reversed)
+        {
+            Console.WriteLine($"{input} is a Palindrome");
+        }
+        else{
+            Console.WriteLine($"{input} is not a Palindrome");
         }
     }
 }
