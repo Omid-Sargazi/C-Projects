@@ -232,4 +232,18 @@ class Program
         }
         Console.WriteLine($"Factorial of {num} is {factorial}");
     }
+
+    private static void SumOfDigits()
+    {
+        Console.WriteLine("Enter a number");
+        int number = int.Parse(Console.ReadLine());
+        int sum=0;
+
+        while(number!=0)
+        {
+            sum+=number%10;
+            number/=10;
+        }
+        Console.WriteLine($"The sum of digits is {sum}");
+    }
 }
