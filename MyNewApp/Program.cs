@@ -31,6 +31,7 @@ class Program
         // ReverseString();
         // StringToChar();
         Palindrome();
+        PrimeNumber();
     }
 
 
@@ -306,4 +307,32 @@ class Program
             Console.WriteLine($"{input} is not a Palindrome");
         }
     }
+
+    private static void PrimeNumber()
+    {
+        Console.WriteLine("Enetr a number fro checking is a prime or not");
+        int number = int.Parse(Console.ReadLine());
+        bool isPrime=true;
+            if(number<2)
+            {
+                isPrime=false;
+            }else
+            {
+
+        for(int i=2;i<=Math.Sqrt(number);i++)
+        {
+            if(number%i==0)
+            {
+                isPrime=false;
+                break;
+            }
+        }
+            }
+
+            if(isPrime)
+            {
+                Console.WriteLine($"{number} is a prime number.")
+            }
+            else Console.WriteLine($"{number} is not a prime number");
+    } 
 }
