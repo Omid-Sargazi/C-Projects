@@ -20,7 +20,8 @@ class Program
         // ifSentence();
         // OddEven();
         // SimpleCalculator();
-        CheckLeapYear();
+        // CheckLeapYear();
+        MaximumThreeNumbers();
     }
 
 
@@ -180,4 +181,24 @@ class Program
         }
     }
 
+
+    private static void MaximumThreeNumbers()
+    {
+        Console.WriteLine("Enter three Number: ");
+        double num1 = double.Parse(Console.ReadLine());
+        double num2 = double.Parse(Console.ReadLine());
+        double num3 = double.Parse(Console.ReadLine());
+        double max = num1;
+
+        if(num2>num1)
+        {
+            max=num2;
+        }if(num3>num2)
+        {
+            max=num3;
+        }
+
+        Console.WriteLine($"Max is {max}");
+
+    }
 }
