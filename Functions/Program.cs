@@ -30,6 +30,12 @@ class Program
         int quotient, remainder;
         Divide(10,3, out quotient, out remainder);
         Console.WriteLine($"Quotient: +{quotient}, Reminder: {remainder}");
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.WriteLine("***********************");
+        Console.ResetColor();
+
+        var resultt = Divided(10,3);
+        Console.WriteLine($"Quotient: {resultt.Item1}, Remainder: {resultt.Item2}");
     }
 
     static void PrintMessage()
@@ -72,5 +78,10 @@ class Program
     {
         quotient = a/b;
         remainder = a%b;
+    }
+
+    static Tuple<int, int> Divided(int a, int b)
+    {
+        return Tuple.Create(a/b,a%b);
     }
 }
