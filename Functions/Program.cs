@@ -1,9 +1,22 @@
 ﻿using System;
 
+class Person
+{
+     public string Name { get; set; }
+    public int Age {get; set;}
+}
+
+
+
 class Program
+
 {
     static void Main(string[] args)
     {
+
+        Person person = CreatePerson();
+        Console.WriteLine($"Name:{person.Name}, Age: {person.Age}");
+        //////////////////////////////////////
         PrintMessage();
         int result = addTwoNumber(2,3);
         Console.WriteLine("Add to number is: "+result);
@@ -100,5 +113,10 @@ class Program
             sum+=number;
         }
         return sum;
+    }
+
+    static Person CreatePerson()
+    {
+        return new Person{Name="Omid", Age=30};
     }
 }
