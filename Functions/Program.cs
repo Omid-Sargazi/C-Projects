@@ -16,6 +16,12 @@ class Program
         int number=5;
         IncrementRef(ref number);
         Console.WriteLine("After method call: "+number);
+
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.WriteLine("****************************");
+        Console.ResetColor();
+        Console.WriteLine("Double multiply two number"+Multiply(3.5,2.5));
+        Console.WriteLine("int multiply two number"+Multiply(2,3));
     }
 
     static void PrintMessage()
@@ -42,5 +48,15 @@ class Program
     static void IncrementRef(ref int a)
     {
         a+=1;
+    }
+
+    static int Multiply(int a, int b)
+    {
+        return a*b;
+    }
+
+    static double Multiply(double a, double b)
+    {
+        return a*b;
     }
 }
