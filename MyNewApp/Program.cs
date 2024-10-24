@@ -30,8 +30,11 @@ class Program
         // Fibonacci();
         // ReverseString();
         // StringToChar();
-        Palindrome();
-        PrimeNumber();
+        // Palindrome();
+        // PrimeNumber();
+        Console.WriteLine("Enetr a number.");
+        int num = int.Parse(Console.ReadLine());
+        Console.WriteLine($"Sum of natural numbers up to {num} is {Sum(num)}");
     }
 
 
@@ -331,8 +334,20 @@ class Program
 
             if(isPrime)
             {
-                Console.WriteLine($"{number} is a prime number.")
+                Console.WriteLine($"{number} is a prime number.");
             }
             else Console.WriteLine($"{number} is not a prime number");
     } 
+
+    private static int Sum(int num)
+    {
+        if(num ==1)
+        {
+            return 1;
+        }
+        else
+        {
+            return num + Sum(num-1);
+        }
+    }
 }
