@@ -1,5 +1,6 @@
 ﻿using System;
-
+using System.Linq; // Required for LINQ methods
+using System.Collections.Generic; // Required for List<T>
 namespace Classess
 {
     public static class Program
@@ -36,7 +37,30 @@ namespace Classess
             {
                 Console.WriteLine(number);
             }
+
+            // *********************************************
+            var names = new List<string> {"Charlie", "Alice", "Bob"};
+            var sortedName = names.OrderBy(name=>name);
+            foreach(var name in sortedName)
+            {
+                Console.WriteLine(name);
+            }
+
+            var numberss = Enumerable.Range(0,21);
+            var resultss = numberss.Where(n=>n%2==0).Select(n=>n*n).OrderByDescending(n=>n);
+            foreach(var num in resultss)
+            {
+                Console.Write(", "+num);
+            }
+
+           string original = "Hello";
+            string reversed = original.Reverse(); // Call the extension method
+            Console.WriteLine($"Original: {original}, Reversed: {reversed}");
+            // *********************************************
+            
         }
     }
+
+
 
 }
