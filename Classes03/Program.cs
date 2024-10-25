@@ -33,6 +33,9 @@ namespace Excercise
 
             var fruits = new List<string> {"Apple,", "Banana", "Oranges"};
             fruits.ForEach(fruit=>Console.WriteLine(fruit));
+
+            // Anonymous Types
+            
         }
     }
 
