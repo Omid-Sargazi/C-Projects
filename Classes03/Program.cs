@@ -30,6 +30,9 @@ namespace Excercise
                         };
 
             Console.WriteLine($"Name: {Person.Name}, Age: {Person.Age}, Street: {Person.Address.Street}, City: {Person.Address.City} ");
+
+            var fruits = new List<string> {"Apple,", "Banana", "Oranges"};
+            fruits.ForEach(fruit=>Console.WriteLine(fruit));
         }
     }
 
