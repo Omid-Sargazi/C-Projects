@@ -1,0 +1,14 @@
+/home/omidsa/Programmings/CSharp/master/Classes03/obj/Debug/net7.0/Classes03.GeneratedMSBuildEditorConfig.editorconfig
+/home/omidsa/Programmings/CSharp/master/Classes03/obj/Debug/net7.0/Classes03.AssemblyInfoInputs.cache
+/home/omidsa/Programmings/CSharp/master/Classes03/obj/Debug/net7.0/Classes03.AssemblyInfo.cs
+/home/omidsa/Programmings/CSharp/master/Classes03/obj/Debug/net7.0/Classes03.csproj.CoreCompileInputs.cache
+/home/omidsa/Programmings/CSharp/master/Classes03/bin/Debug/net7.0/Classes03
+/home/omidsa/Programmings/CSharp/master/Classes03/bin/Debug/net7.0/Classes03.deps.json
+/home/omidsa/Programmings/CSharp/master/Classes03/bin/Debug/net7.0/Classes03.runtimeconfig.json
+/home/omidsa/Programmings/CSharp/master/Classes03/bin/Debug/net7.0/Classes03.dll
+/home/omidsa/Programmings/CSharp/master/Classes03/bin/Debug/net7.0/Classes03.pdb
+/home/omidsa/Programmings/CSharp/master/Classes03/obj/Debug/net7.0/Classes03.dll
+/home/omidsa/Programmings/CSharp/master/Classes03/obj/Debug/net7.0/refint/Classes03.dll
+/home/omidsa/Programmings/CSharp/master/Classes03/obj/Debug/net7.0/Classes03.pdb
+/home/omidsa/Programmings/CSharp/master/Classes03/obj/Debug/net7.0/Classes03.genruntimeconfig.cache
+/home/omidsa/Programmings/CSharp/master/Classes03/obj/Debug/net7.0/ref/Classes03.dll
