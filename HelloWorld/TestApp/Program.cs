@@ -22,4 +22,17 @@ namespace Classes_inheritance
 
        public override double Area() => Math.PI * Radius * Radius;
     }
+
+    public abstract class Payment
+    {
+        public string TransActionId { get; set; }
+        public decimal Amount {get;set;}
+
+        public Payment(decimal amount)
+        {
+            Amount = amount;
+        }
+
+        public abstract void ProcessPayment();
+    }
 }
