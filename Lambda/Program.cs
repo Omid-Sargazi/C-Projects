@@ -9,8 +9,9 @@ public class Program
         var lambda1 = numbers.ToArray();
 
         var lambda2 = numbers.OrderByDescending(x=>x).ToArray();
+        var lambda3 = numbers.Where(nameof=>nameof>30 && nameof<=80).ToArray();
 
-        foreach (int item in lambda2)
+        foreach (int item in lambda3)
         {
             Console.WriteLine(item);
         }
