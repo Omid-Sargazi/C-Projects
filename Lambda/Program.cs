@@ -24,10 +24,15 @@ public class Program
 
         var result1 = Names.ToList();
 
-        foreach(string name in result1)
+        var result2 = Names.Where(n=>n.ToLower().Contains("i")).ToList();
+
+
+        foreach(string name in result2)
         {
             Console.WriteLine($"{name}");
         }
+
+
 
         Console.WriteLine(lambda6);
 
