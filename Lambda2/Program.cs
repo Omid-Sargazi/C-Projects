@@ -7,6 +7,13 @@ namespace Lambda
             {
                 Console.WriteLine("Hello");
                 List<Person> people = new List<Person>();
+                List<PersonCar> cars = new List<PersonCar>()
+                {
+                    new PersonCar(){PersonId=1,CarName="Pride",CarModel="1988"},
+                    new PersonCar(){PersonId=3,CarName="Paykan", CarModel="2010"}
+                };
+
+
                 Person p1 = new Person();
                 p1.Name="Reza";
                 p1.Family="Alishah";
@@ -51,6 +58,19 @@ namespace Lambda
                 foreach(var p in result5)
                 {
                     Console.WriteLine($"{p.Name},{p.Age}");
+                }
+
+
+                var join = (from p in people
+                    join c in cars on p.PersonId equals c.PersonId
+                    select new {
+                        p.Name, p.Age,p.PersonId,p.Family,c.CarName,c.CarModel
+                    } 
+                ).ToList();
+
+                foreach(var p in join)
+                {
+                    Console.WriteLine($"Name: {p.Name}, Family: {p.Family} CarName: {p.CarName} CarModel: {p.CarModel}, PersonalId");
                 }
             }
         }
