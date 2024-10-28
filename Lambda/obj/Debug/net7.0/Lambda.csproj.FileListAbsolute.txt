@@ -1,0 +1,14 @@
+/home/omidsa/Programmings/CSharp/Lambda/bin/Debug/net7.0/Lambda
+/home/omidsa/Programmings/CSharp/Lambda/bin/Debug/net7.0/Lambda.deps.json
+/home/omidsa/Programmings/CSharp/Lambda/bin/Debug/net7.0/Lambda.runtimeconfig.json
+/home/omidsa/Programmings/CSharp/Lambda/bin/Debug/net7.0/Lambda.dll
+/home/omidsa/Programmings/CSharp/Lambda/bin/Debug/net7.0/Lambda.pdb
+/home/omidsa/Programmings/CSharp/Lambda/obj/Debug/net7.0/Lambda.GeneratedMSBuildEditorConfig.editorconfig
+/home/omidsa/Programmings/CSharp/Lambda/obj/Debug/net7.0/Lambda.AssemblyInfoInputs.cache
+/home/omidsa/Programmings/CSharp/Lambda/obj/Debug/net7.0/Lambda.AssemblyInfo.cs
+/home/omidsa/Programmings/CSharp/Lambda/obj/Debug/net7.0/Lambda.csproj.CoreCompileInputs.cache
+/home/omidsa/Programmings/CSharp/Lambda/obj/Debug/net7.0/Lambda.dll
+/home/omidsa/Programmings/CSharp/Lambda/obj/Debug/net7.0/refint/Lambda.dll
+/home/omidsa/Programmings/CSharp/Lambda/obj/Debug/net7.0/Lambda.pdb
+/home/omidsa/Programmings/CSharp/Lambda/obj/Debug/net7.0/Lambda.genruntimeconfig.cache
+/home/omidsa/Programmings/CSharp/Lambda/obj/Debug/net7.0/ref/Lambda.dll
