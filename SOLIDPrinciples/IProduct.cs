@@ -27,4 +27,6 @@ namespace MyNamespace
         public string Name{get;set;}
     }
     
+    var products = new List<IProduct> {new Electronics{Id=1, Name="TV"}, new Grocery{Id=2, Name="Milk"}};
+    var discountableProducts = products.OfType<IDiscountable>();
 }
