@@ -14,5 +14,17 @@ namespace MyNamespace
         decimal ApplyDiscount(decimal price);
     }
 
+    public class Electronics:IProduct, IDiscountable
+    {
+        public int Id{get;set;}
+        public string Name{get;set}
+        public decimal ApplyDiscount(decimal price)=>price *0.9m;
+    }
+
+    public class Grocery:IProduct
+    {
+        public int Id{get; set;}
+        public string Name{get;set;}
+    }
     
 }
