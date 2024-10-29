@@ -1,0 +1,14 @@
+/home/omidsa/Programmings/CSharp/SOLIDPrinciples/bin/Debug/net7.0/SOLIDPrinciples
+/home/omidsa/Programmings/CSharp/SOLIDPrinciples/bin/Debug/net7.0/SOLIDPrinciples.deps.json
+/home/omidsa/Programmings/CSharp/SOLIDPrinciples/bin/Debug/net7.0/SOLIDPrinciples.runtimeconfig.json
+/home/omidsa/Programmings/CSharp/SOLIDPrinciples/bin/Debug/net7.0/SOLIDPrinciples.dll
+/home/omidsa/Programmings/CSharp/SOLIDPrinciples/bin/Debug/net7.0/SOLIDPrinciples.pdb
+/home/omidsa/Programmings/CSharp/SOLIDPrinciples/obj/Debug/net7.0/SOLIDPrinciples.GeneratedMSBuildEditorConfig.editorconfig
+/home/omidsa/Programmings/CSharp/SOLIDPrinciples/obj/Debug/net7.0/SOLIDPrinciples.AssemblyInfoInputs.cache
+/home/omidsa/Programmings/CSharp/SOLIDPrinciples/obj/Debug/net7.0/SOLIDPrinciples.AssemblyInfo.cs
+/home/omidsa/Programmings/CSharp/SOLIDPrinciples/obj/Debug/net7.0/SOLIDPrinciples.csproj.CoreCompileInputs.cache
+/home/omidsa/Programmings/CSharp/SOLIDPrinciples/obj/Debug/net7.0/SOLIDPrinciples.dll
+/home/omidsa/Programmings/CSharp/SOLIDPrinciples/obj/Debug/net7.0/refint/SOLIDPrinciples.dll
+/home/omidsa/Programmings/CSharp/SOLIDPrinciples/obj/Debug/net7.0/SOLIDPrinciples.pdb
+/home/omidsa/Programmings/CSharp/SOLIDPrinciples/obj/Debug/net7.0/SOLIDPrinciples.genruntimeconfig.cache
+/home/omidsa/Programmings/CSharp/SOLIDPrinciples/obj/Debug/net7.0/ref/SOLIDPrinciples.dll
