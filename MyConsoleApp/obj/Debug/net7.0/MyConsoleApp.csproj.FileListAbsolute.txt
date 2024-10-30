@@ -1,0 +1,14 @@
+/home/omidsa/Programmings/CSharp/MyConsoleApp/bin/Debug/net7.0/MyConsoleApp
+/home/omidsa/Programmings/CSharp/MyConsoleApp/bin/Debug/net7.0/MyConsoleApp.deps.json
+/home/omidsa/Programmings/CSharp/MyConsoleApp/bin/Debug/net7.0/MyConsoleApp.runtimeconfig.json
+/home/omidsa/Programmings/CSharp/MyConsoleApp/bin/Debug/net7.0/MyConsoleApp.dll
+/home/omidsa/Programmings/CSharp/MyConsoleApp/bin/Debug/net7.0/MyConsoleApp.pdb
+/home/omidsa/Programmings/CSharp/MyConsoleApp/obj/Debug/net7.0/MyConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/omidsa/Programmings/CSharp/MyConsoleApp/obj/Debug/net7.0/MyConsoleApp.AssemblyInfoInputs.cache
+/home/omidsa/Programmings/CSharp/MyConsoleApp/obj/Debug/net7.0/MyConsoleApp.AssemblyInfo.cs
+/home/omidsa/Programmings/CSharp/MyConsoleApp/obj/Debug/net7.0/MyConsoleApp.csproj.CoreCompileInputs.cache
+/home/omidsa/Programmings/CSharp/MyConsoleApp/obj/Debug/net7.0/MyConsoleApp.dll
+/home/omidsa/Programmings/CSharp/MyConsoleApp/obj/Debug/net7.0/refint/MyConsoleApp.dll
+/home/omidsa/Programmings/CSharp/MyConsoleApp/obj/Debug/net7.0/MyConsoleApp.pdb
+/home/omidsa/Programmings/CSharp/MyConsoleApp/obj/Debug/net7.0/MyConsoleApp.genruntimeconfig.cache
+/home/omidsa/Programmings/CSharp/MyConsoleApp/obj/Debug/net7.0/ref/MyConsoleApp.dll
