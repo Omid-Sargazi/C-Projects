@@ -14,6 +14,10 @@ namespace MyNamespace
             Student student =  new Student();
             student.Age=25;
             student.DisplayInfo();
+
+            Calculator calc = new Calculator();
+            int result = calc.Add(3,4);
+            Console.WriteLine(result);
         }
     }
 }
