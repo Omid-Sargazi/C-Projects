@@ -55,6 +55,10 @@ namespace MyNamespace
             Carr car = new Carr();
             car.Start();
             car.Drive();
+
+
+            Employee dev = new Developer();
+            dev.Work();
         }
     }
 }
