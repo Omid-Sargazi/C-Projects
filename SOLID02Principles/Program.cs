@@ -10,6 +10,10 @@ namespace MyNamespace
             book1.Title = "C# Programming";
             book1.Author = "John Doh";
             book1.DidplayInfo();
+
+            Student student =  new Student();
+            student.Age=25;
+            student.DisplayInfo();
         }
     }
 }
