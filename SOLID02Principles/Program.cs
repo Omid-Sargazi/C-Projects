@@ -59,6 +59,13 @@ namespace MyNamespace
 
             Employee dev = new Developer();
             dev.Work();
+
+
+            IPlayable instruments = new Gitar();
+            instruments.Play();
+
+            instruments = new Piano();
+            instruments.Play();
         }
     }
 }
