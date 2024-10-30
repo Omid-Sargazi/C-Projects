@@ -18,6 +18,9 @@ namespace MyNamespace
             Calculator calc = new Calculator();
             int result = calc.Add(3,4);
             Console.WriteLine(result);
+
+            Cars car1 = new Cars("Benz");
+            Console.WriteLine("Model is: "+car1.Model);
         }
     }
 }
