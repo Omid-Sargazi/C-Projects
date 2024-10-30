@@ -1,9 +1,9 @@
 namespace MyNamespace
 {
-    public class User
+    public class Userr
     {
         private string password;
-        public string password{
+        public string Password{
             get{return password;}   
             set{
                 password=value;

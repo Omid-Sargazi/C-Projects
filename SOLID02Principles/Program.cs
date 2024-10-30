@@ -31,6 +31,12 @@ namespace MyNamespace
 
             Animall cat = new Cat();
             cat.Speak();
+
+            IFlyable flyable = new Bird();
+            flyable.fly();
+
+            flyable = new AirPlane();
+            flyable.fly();
         }
     }
 }
