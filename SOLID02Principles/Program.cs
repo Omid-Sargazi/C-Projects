@@ -22,21 +22,35 @@ namespace MyNamespace
             // Cars car1 = new Cars("Benz");
             // Console.WriteLine("Model is: " +car1.Model);
 
-            Dog dog = new Dog();
-            dog.Eat();
-            dog.Bark();
+            // Dog dog = new Dog();
+            // dog.Eat();
+            // dog.Bark();
 
-            Shape shape = new Circle();
-            shape.Draw();
+            // Shape shape = new Circle();
+            // shape.Draw();
 
-            Animall cat = new Cat();
-            cat.Speak();
+            // Animall cat = new Cat();
+            // cat.Speak();
 
-            IFlyable flyable = new Bird();
-            flyable.fly();
+            // IFlyable flyable = new Bird();
+            // flyable.fly();
 
-            flyable = new AirPlane();
-            flyable.fly();
+            // flyable = new AirPlane();
+            // flyable.fly();
+
+            Square square = new Square() {Side=4};
+            Console.WriteLine(square.Area());
+
+
+            Library library = new Library();
+            library.AddBook("1984");
+
+            var books = library.GetBook();
+
+            foreach(string book in books)
+            {
+                Console.WriteLine(book);
+            }
         }
     }
 }
