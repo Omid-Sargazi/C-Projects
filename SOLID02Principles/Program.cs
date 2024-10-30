@@ -25,6 +25,9 @@ namespace MyNamespace
             Dog dog = new Dog();
             dog.Eat();
             dog.Bark();
+
+            Shape shape = new Circle();
+            shape.Draw();
         }
     }
 }
