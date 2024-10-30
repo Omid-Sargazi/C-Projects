@@ -28,6 +28,9 @@ namespace MyNamespace
 
             Shape shape = new Circle();
             shape.Draw();
+
+            Animall cat = new Cat();
+            cat.Speak();
         }
     }
 }
