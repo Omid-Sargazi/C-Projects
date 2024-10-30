@@ -20,7 +20,7 @@ namespace MyNamespace
             Console.WriteLine(result);
 
             Cars car1 = new Cars("Benz");
-            Console.WriteLine("Model is: "+car1.Model);
+            Console.WriteLine("Model is: " +car1.Model);
         }
     }
 }
