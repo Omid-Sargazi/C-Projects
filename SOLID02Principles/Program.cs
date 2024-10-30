@@ -51,6 +51,10 @@ namespace MyNamespace
             {
                 Console.WriteLine(book);
             }
+
+            Carr car = new Carr();
+            car.Start();
+            car.Drive();
         }
     }
 }
