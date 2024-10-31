@@ -1,0 +1,14 @@
+/home/omidsa/Programmings/CSharp/gPoint/obj/Debug/net7.0/gPoint.GeneratedMSBuildEditorConfig.editorconfig
+/home/omidsa/Programmings/CSharp/gPoint/obj/Debug/net7.0/gPoint.AssemblyInfoInputs.cache
+/home/omidsa/Programmings/CSharp/gPoint/obj/Debug/net7.0/gPoint.AssemblyInfo.cs
+/home/omidsa/Programmings/CSharp/gPoint/obj/Debug/net7.0/gPoint.csproj.CoreCompileInputs.cache
+/home/omidsa/Programmings/CSharp/gPoint/bin/Debug/net7.0/gPoint
+/home/omidsa/Programmings/CSharp/gPoint/bin/Debug/net7.0/gPoint.deps.json
+/home/omidsa/Programmings/CSharp/gPoint/bin/Debug/net7.0/gPoint.runtimeconfig.json
+/home/omidsa/Programmings/CSharp/gPoint/bin/Debug/net7.0/gPoint.dll
+/home/omidsa/Programmings/CSharp/gPoint/bin/Debug/net7.0/gPoint.pdb
+/home/omidsa/Programmings/CSharp/gPoint/obj/Debug/net7.0/gPoint.dll
+/home/omidsa/Programmings/CSharp/gPoint/obj/Debug/net7.0/refint/gPoint.dll
+/home/omidsa/Programmings/CSharp/gPoint/obj/Debug/net7.0/gPoint.pdb
+/home/omidsa/Programmings/CSharp/gPoint/obj/Debug/net7.0/gPoint.genruntimeconfig.cache
+/home/omidsa/Programmings/CSharp/gPoint/obj/Debug/net7.0/ref/gPoint.dll
