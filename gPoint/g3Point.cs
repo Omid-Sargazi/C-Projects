@@ -1,16 +1,29 @@
 using System;
 namespace gPoints
 {
+   public class g3Points:gPoints{
     public double Z{get; private set;}
-
-    public g3Point():base()
+    
+    public g3Points():base()
     {
-        z=0;
+        Z=0;
     }
 
-    public g3Point(double x, double y, double z):base(x, y)
+    public g3Points(double x, double y, double z):base(x, y)
     {
-        ValidateCoordinate(z,nameof(Z));
+        ValidateCoordinate(Z,nameof(Z));
         Z=z;
     }
+
+    public g3Points(g3Points otherPoint):base(otherPoint)
+    {
+        if(otherPoint==null)
+        {
+            throw new ArgumentNullException(nameof(otherPoint), "Input point cannot be null.");
+        }
+
+        Z=z;
+    }
+
+   }
 }
