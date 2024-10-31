@@ -30,5 +30,16 @@ namespace gPoints
             X=otherPoin.X;
             Y = otherPoin.Y;
         }
+
+        public void SetCoordinates(double x , double y)
+        {
+            if(double.IsNan(x)|| double.IsNaN(y))
+            {
+                throw new ArgumentException("X and Y must be valid numbers.");
+            }
+            X=x;
+            Y=y;
+
+        }
     }
 }
