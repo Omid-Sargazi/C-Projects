@@ -21,6 +21,14 @@ namespace gPoints
             Y=Y;
         }
 
-        
+        public gPoint(gPoint otherPoin)
+        {
+            if(otherPoin==null)
+            {
+                throw new ArgumentNullException(nameof(otherPoint), "Input point cannot be null.");
+            }
+            X=otherPoin.X;
+            Y = otherPoin.Y;
+        }
     }
 }
