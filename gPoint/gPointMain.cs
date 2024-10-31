@@ -29,6 +29,14 @@ namespace gPoint
             Y=otherPoint.Y;
         }
 
+        public virtual void SetCoordinates(double x, double y)
+        {
+            ValidateCoordinate(X, nameof(X));
+            ValidateCoordinate(y), nameof(Y);
+            X=x;
+            Y=y;
+        }
+
         protected void ValidateCoordinate(double value, string name)
         {
             if(double.IsNaN(value)|| double.IsInfinity(value))
