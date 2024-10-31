@@ -37,6 +37,24 @@ namespace gPoint
             Y=y;
         }
 
+        public virtual double DistanceTo(gPoint otherPoin)
+        
+      {
+
+          
+            if(otherPoin==null)
+            
+            {       
+            throw new ArgumentNullException(nameof(otherPoint), "Input point cannot be null.");
+
+            }
+            else
+            {
+                return Math.Sqrt(Math.Pow(X - otherPoint.X, 2) + Math.Pow(Y - otherPoint.Y, 2));
+            }
+        }
+      
+
         protected void ValidateCoordinate(double value, string name)
         {
             if(double.IsNaN(value)|| double.IsInfinity(value))
@@ -44,5 +62,12 @@ namespace gPoint
                 throw new ArgumentException($"{name} must be a valid number.");
             }
         }
+
+        public override string ToString()
+    {
+        return $"({X}, {Y})";
+    }
+
     }
 }
+
