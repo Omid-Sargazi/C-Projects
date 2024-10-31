@@ -27,7 +27,7 @@ namespace gPoints
             {
                 throw new ArgumentNullException(nameof(otherPoint), "Input point cannot be null.");
             }
-            X=otherPoin.X;
+            X=  otherPoin.X;
             Y = otherPoin.Y;
         }
 
@@ -40,6 +40,20 @@ namespace gPoints
             X=x;
             Y=y;
 
+        }
+
+        public double DistanceTo(gPoint otherPoint)
+        {
+            if (otherPoint == null)
+        {
+            throw new ArgumentNullException(nameof(otherPoint), "Input point cannot be null.");
+        }
+            return Math.Sqrt(Math.Pow(X,otherPoint.X,2)+Math.Pow(Y-otherPoint.Y,2));
+        }
+
+        public override string ToString()
+        {
+            return $"{X},{Y}";
         }
     }
 }
