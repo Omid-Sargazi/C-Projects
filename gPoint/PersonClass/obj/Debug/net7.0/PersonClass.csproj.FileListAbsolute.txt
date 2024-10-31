@@ -1,0 +1,14 @@
+/home/omidsa/Programmings/CSharp/gPoint/PersonClass/bin/Debug/net7.0/PersonClass
+/home/omidsa/Programmings/CSharp/gPoint/PersonClass/bin/Debug/net7.0/PersonClass.deps.json
+/home/omidsa/Programmings/CSharp/gPoint/PersonClass/bin/Debug/net7.0/PersonClass.runtimeconfig.json
+/home/omidsa/Programmings/CSharp/gPoint/PersonClass/bin/Debug/net7.0/PersonClass.dll
+/home/omidsa/Programmings/CSharp/gPoint/PersonClass/bin/Debug/net7.0/PersonClass.pdb
+/home/omidsa/Programmings/CSharp/gPoint/PersonClass/obj/Debug/net7.0/PersonClass.GeneratedMSBuildEditorConfig.editorconfig
+/home/omidsa/Programmings/CSharp/gPoint/PersonClass/obj/Debug/net7.0/PersonClass.AssemblyInfoInputs.cache
+/home/omidsa/Programmings/CSharp/gPoint/PersonClass/obj/Debug/net7.0/PersonClass.AssemblyInfo.cs
+/home/omidsa/Programmings/CSharp/gPoint/PersonClass/obj/Debug/net7.0/PersonClass.csproj.CoreCompileInputs.cache
+/home/omidsa/Programmings/CSharp/gPoint/PersonClass/obj/Debug/net7.0/PersonClass.dll
+/home/omidsa/Programmings/CSharp/gPoint/PersonClass/obj/Debug/net7.0/refint/PersonClass.dll
+/home/omidsa/Programmings/CSharp/gPoint/PersonClass/obj/Debug/net7.0/PersonClass.pdb
+/home/omidsa/Programmings/CSharp/gPoint/PersonClass/obj/Debug/net7.0/PersonClass.genruntimeconfig.cache
+/home/omidsa/Programmings/CSharp/gPoint/PersonClass/obj/Debug/net7.0/ref/PersonClass.dll
