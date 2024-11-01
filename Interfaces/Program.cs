@@ -14,7 +14,11 @@ namespace Interfaces
              NotificationService  sms = new NotificationService(emailNotification);
              sms.Notify("Hello via SMS!", "+123456789");
 
-             
+             emailNotification = new PushNotification();
+             NotificationService pushService = new NotificationService(emailNotification);
+             pushService.Notify("Hello via Push Notification!", "user123");
+
+
         }
     }
 }

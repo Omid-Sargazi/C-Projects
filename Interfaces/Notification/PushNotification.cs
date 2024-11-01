@@ -1,6 +1,6 @@
 namespace Interfaces
 {
-    public class PushNotification
+    public class PushNotification:INotification
     {
         public void Send(string message, string recepient)
         {
