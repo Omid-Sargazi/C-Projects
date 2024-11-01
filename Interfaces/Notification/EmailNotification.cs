@@ -4,7 +4,7 @@ namespace Interfaces
     {
         public void Send(string message, string recepient)
         {
-            Console.WriteLine($"Sending Email to {recipient}: {message}");
+            Console.WriteLine($"Sending Email to {recepient}: {message}");
         }
     }
 }
