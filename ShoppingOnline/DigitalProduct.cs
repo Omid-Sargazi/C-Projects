@@ -1,4 +1,6 @@
-namespace Shopping
+using ShoppingOnline;
+
+namespace ShoppingOnline
 {
     public class DigitalProduct:IOrderItem
     {
@@ -8,7 +10,7 @@ namespace Shopping
 
         public decimal CalculatePrice()
         {
-            decimal tax = Price * 0.15m; // 15% tax for digital products
+            decimal tax = Price * 0.15M; // 15% tax for digital products
             return Price + tax;
         }
 
@@ -18,5 +20,7 @@ namespace Shopping
         Console.WriteLine($"Download link generated: {DownloadLink}");
         Console.WriteLine($"Total Price with Tax: {CalculatePrice()}");
     }
+
+
     }
 }
