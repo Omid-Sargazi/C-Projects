@@ -26,6 +26,31 @@ namespace Linq101
             {
                 Console.WriteLine($"length less then 3 are: {x}");
             }
+            ////////////////////////////////////////
+            List<string> words = new List<string>{"apple","banana","cherry"};
+            var wordLength = words.Select(x=>x.Length).ToList();
+
+            foreach(var x in wordLength)
+            {
+                Console.WriteLine($"Lengths are: {x}");
+            }
+            ///////////////////////////////////////////////
+            ///OrderBy
+            List<string> namess = new List<string>{"Charlie","Alice","Bob"};
+            var sortedNames = namess.OrderBy(x=>x).ToList();
+            foreach(var x in sortedNames)
+            {
+                Console.WriteLine($"{x}");
+            }
+//////////////*************************************************************
+            List<int> num01 = new List<int>{3,2,4};
+            var sortedNum01 = num01.OrderBy(x=>x).ToList();
+
+            for(int i=0;i<sortedNum01.Count;i++)
+            {
+                Console.WriteLine(sortedNum01[i]);
+            }
+
 
 
         }
