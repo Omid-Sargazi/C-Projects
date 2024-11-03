@@ -51,7 +51,19 @@ namespace Linq101
                 Console.WriteLine(sortedNum01[i]);
             }
 
+//////////////*************************************************************OredrByDescending
 
+           List<string> Names = new List<string>{"Charlie", "Alice", "Bob"};
+           var sortedNames02 = Names.OrderByDescending(x=>x);
+           
+           foreach(var name in sortedNames02)
+           {
+            Console.WriteLine($"OredrByDescending:  {name}");
+           }
+
+        List<int> num03 = new List<int>{3,2,4,5,6,-10};
+        var sortedNum03 = num03.OrderByDescending(x=>x);
+        
 
         }
     }
