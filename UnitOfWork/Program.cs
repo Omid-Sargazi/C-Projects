@@ -31,4 +31,34 @@ namespace UnitOfWOrk
         public string Name {get;set;}
         public decimal Balance{get;set;}
     }
+
+    public class ProductRepository
+    {
+        private readonly AppDbContext _context;
+
+        public ProductRepository(AppDbContext context)
+        {
+            _context=context;
+        }
+
+        public void UpdateStock(int productID, int quantity)
+        {
+            var product = _context.Products.Find(productID);
+            if (product != null)
+        {
+            product.Stock -= quantity;
+            _context.SaveChanges();  // Commits immediately
+        }
+        }
+    }
+
+    public class OrderRepository
+    {
+        private readonly AppDbContext _context;
+
+        public OrderRepository(AppDbContext context)
+        {
+            _context = context;
+        }
+    }
 }
