@@ -1,0 +1,14 @@
+/home/omidsa/Programmings/CSharp/ShoppingOnline/bin/Debug/net7.0/ShoppingOnline
+/home/omidsa/Programmings/CSharp/ShoppingOnline/bin/Debug/net7.0/ShoppingOnline.deps.json
+/home/omidsa/Programmings/CSharp/ShoppingOnline/bin/Debug/net7.0/ShoppingOnline.runtimeconfig.json
+/home/omidsa/Programmings/CSharp/ShoppingOnline/bin/Debug/net7.0/ShoppingOnline.dll
+/home/omidsa/Programmings/CSharp/ShoppingOnline/bin/Debug/net7.0/ShoppingOnline.pdb
+/home/omidsa/Programmings/CSharp/ShoppingOnline/obj/Debug/net7.0/ShoppingOnline.GeneratedMSBuildEditorConfig.editorconfig
+/home/omidsa/Programmings/CSharp/ShoppingOnline/obj/Debug/net7.0/ShoppingOnline.AssemblyInfoInputs.cache
+/home/omidsa/Programmings/CSharp/ShoppingOnline/obj/Debug/net7.0/ShoppingOnline.AssemblyInfo.cs
+/home/omidsa/Programmings/CSharp/ShoppingOnline/obj/Debug/net7.0/ShoppingOnline.csproj.CoreCompileInputs.cache
+/home/omidsa/Programmings/CSharp/ShoppingOnline/obj/Debug/net7.0/ShoppingOnline.dll
+/home/omidsa/Programmings/CSharp/ShoppingOnline/obj/Debug/net7.0/refint/ShoppingOnline.dll
+/home/omidsa/Programmings/CSharp/ShoppingOnline/obj/Debug/net7.0/ShoppingOnline.pdb
+/home/omidsa/Programmings/CSharp/ShoppingOnline/obj/Debug/net7.0/ShoppingOnline.genruntimeconfig.cache
+/home/omidsa/Programmings/CSharp/ShoppingOnline/obj/Debug/net7.0/ref/ShoppingOnline.dll

@@ -1,0 +1,14 @@
+/home/omidsa/Programmings/CSharp/UnitOfWork/bin/Debug/net7.0/UnitOfWork
+/home/omidsa/Programmings/CSharp/UnitOfWork/bin/Debug/net7.0/UnitOfWork.deps.json
+/home/omidsa/Programmings/CSharp/UnitOfWork/bin/Debug/net7.0/UnitOfWork.runtimeconfig.json
+/home/omidsa/Programmings/CSharp/UnitOfWork/bin/Debug/net7.0/UnitOfWork.dll
+/home/omidsa/Programmings/CSharp/UnitOfWork/bin/Debug/net7.0/UnitOfWork.pdb
+/home/omidsa/Programmings/CSharp/UnitOfWork/obj/Debug/net7.0/UnitOfWork.GeneratedMSBuildEditorConfig.editorconfig
+/home/omidsa/Programmings/CSharp/UnitOfWork/obj/Debug/net7.0/UnitOfWork.AssemblyInfoInputs.cache
+/home/omidsa/Programmings/CSharp/UnitOfWork/obj/Debug/net7.0/UnitOfWork.AssemblyInfo.cs
+/home/omidsa/Programmings/CSharp/UnitOfWork/obj/Debug/net7.0/UnitOfWork.csproj.CoreCompileInputs.cache
+/home/omidsa/Programmings/CSharp/UnitOfWork/obj/Debug/net7.0/UnitOfWork.dll
+/home/omidsa/Programmings/CSharp/UnitOfWork/obj/Debug/net7.0/refint/UnitOfWork.dll
+/home/omidsa/Programmings/CSharp/UnitOfWork/obj/Debug/net7.0/UnitOfWork.pdb
+/home/omidsa/Programmings/CSharp/UnitOfWork/obj/Debug/net7.0/UnitOfWork.genruntimeconfig.cache
+/home/omidsa/Programmings/CSharp/UnitOfWork/obj/Debug/net7.0/ref/UnitOfWork.dll

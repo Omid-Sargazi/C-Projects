@@ -1,0 +1,14 @@
+/home/omidsa/Programmings/CSharp/PaymentProcessor/bin/Debug/net7.0/PaymentProcessor
+/home/omidsa/Programmings/CSharp/PaymentProcessor/bin/Debug/net7.0/PaymentProcessor.deps.json
+/home/omidsa/Programmings/CSharp/PaymentProcessor/bin/Debug/net7.0/PaymentProcessor.runtimeconfig.json
+/home/omidsa/Programmings/CSharp/PaymentProcessor/bin/Debug/net7.0/PaymentProcessor.dll
+/home/omidsa/Programmings/CSharp/PaymentProcessor/bin/Debug/net7.0/PaymentProcessor.pdb
+/home/omidsa/Programmings/CSharp/PaymentProcessor/obj/Debug/net7.0/PaymentProcessor.GeneratedMSBuildEditorConfig.editorconfig
+/home/omidsa/Programmings/CSharp/PaymentProcessor/obj/Debug/net7.0/PaymentProcessor.AssemblyInfoInputs.cache
+/home/omidsa/Programmings/CSharp/PaymentProcessor/obj/Debug/net7.0/PaymentProcessor.AssemblyInfo.cs
+/home/omidsa/Programmings/CSharp/PaymentProcessor/obj/Debug/net7.0/PaymentProcessor.csproj.CoreCompileInputs.cache
+/home/omidsa/Programmings/CSharp/PaymentProcessor/obj/Debug/net7.0/PaymentProcessor.dll
+/home/omidsa/Programmings/CSharp/PaymentProcessor/obj/Debug/net7.0/refint/PaymentProcessor.dll
+/home/omidsa/Programmings/CSharp/PaymentProcessor/obj/Debug/net7.0/PaymentProcessor.pdb
+/home/omidsa/Programmings/CSharp/PaymentProcessor/obj/Debug/net7.0/PaymentProcessor.genruntimeconfig.cache
+/home/omidsa/Programmings/CSharp/PaymentProcessor/obj/Debug/net7.0/ref/PaymentProcessor.dll

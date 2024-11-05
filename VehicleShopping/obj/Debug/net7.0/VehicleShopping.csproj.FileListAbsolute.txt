@@ -1,0 +1,14 @@
+/home/omidsa/Programmings/CSharp/VehicleShopping/bin/Debug/net7.0/VehicleShopping
+/home/omidsa/Programmings/CSharp/VehicleShopping/bin/Debug/net7.0/VehicleShopping.deps.json
+/home/omidsa/Programmings/CSharp/VehicleShopping/bin/Debug/net7.0/VehicleShopping.runtimeconfig.json
+/home/omidsa/Programmings/CSharp/VehicleShopping/bin/Debug/net7.0/VehicleShopping.dll
+/home/omidsa/Programmings/CSharp/VehicleShopping/bin/Debug/net7.0/VehicleShopping.pdb
+/home/omidsa/Programmings/CSharp/VehicleShopping/obj/Debug/net7.0/VehicleShopping.GeneratedMSBuildEditorConfig.editorconfig
+/home/omidsa/Programmings/CSharp/VehicleShopping/obj/Debug/net7.0/VehicleShopping.AssemblyInfoInputs.cache
+/home/omidsa/Programmings/CSharp/VehicleShopping/obj/Debug/net7.0/VehicleShopping.AssemblyInfo.cs
+/home/omidsa/Programmings/CSharp/VehicleShopping/obj/Debug/net7.0/VehicleShopping.csproj.CoreCompileInputs.cache
+/home/omidsa/Programmings/CSharp/VehicleShopping/obj/Debug/net7.0/VehicleShopping.dll
+/home/omidsa/Programmings/CSharp/VehicleShopping/obj/Debug/net7.0/refint/VehicleShopping.dll
+/home/omidsa/Programmings/CSharp/VehicleShopping/obj/Debug/net7.0/VehicleShopping.pdb
+/home/omidsa/Programmings/CSharp/VehicleShopping/obj/Debug/net7.0/VehicleShopping.genruntimeconfig.cache
+/home/omidsa/Programmings/CSharp/VehicleShopping/obj/Debug/net7.0/ref/VehicleShopping.dll

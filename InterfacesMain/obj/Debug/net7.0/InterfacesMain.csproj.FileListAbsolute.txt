@@ -1,0 +1,14 @@
+/home/omidsa/Programmings/CSharp/InterfacesMain/bin/Debug/net7.0/InterfacesMain
+/home/omidsa/Programmings/CSharp/InterfacesMain/bin/Debug/net7.0/InterfacesMain.deps.json
+/home/omidsa/Programmings/CSharp/InterfacesMain/bin/Debug/net7.0/InterfacesMain.runtimeconfig.json
+/home/omidsa/Programmings/CSharp/InterfacesMain/bin/Debug/net7.0/InterfacesMain.dll
+/home/omidsa/Programmings/CSharp/InterfacesMain/bin/Debug/net7.0/InterfacesMain.pdb
+/home/omidsa/Programmings/CSharp/InterfacesMain/obj/Debug/net7.0/InterfacesMain.GeneratedMSBuildEditorConfig.editorconfig
+/home/omidsa/Programmings/CSharp/InterfacesMain/obj/Debug/net7.0/InterfacesMain.AssemblyInfoInputs.cache
+/home/omidsa/Programmings/CSharp/InterfacesMain/obj/Debug/net7.0/InterfacesMain.AssemblyInfo.cs
+/home/omidsa/Programmings/CSharp/InterfacesMain/obj/Debug/net7.0/InterfacesMain.csproj.CoreCompileInputs.cache
+/home/omidsa/Programmings/CSharp/InterfacesMain/obj/Debug/net7.0/InterfacesMain.dll
+/home/omidsa/Programmings/CSharp/InterfacesMain/obj/Debug/net7.0/refint/InterfacesMain.dll
+/home/omidsa/Programmings/CSharp/InterfacesMain/obj/Debug/net7.0/InterfacesMain.pdb
+/home/omidsa/Programmings/CSharp/InterfacesMain/obj/Debug/net7.0/InterfacesMain.genruntimeconfig.cache
+/home/omidsa/Programmings/CSharp/InterfacesMain/obj/Debug/net7.0/ref/InterfacesMain.dll

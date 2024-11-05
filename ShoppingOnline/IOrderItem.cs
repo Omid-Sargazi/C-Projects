@@ -1,4 +1,4 @@
-namespace Shopping
+namespace ShoppingOnline
 {
     public interface IOrderItem
     {

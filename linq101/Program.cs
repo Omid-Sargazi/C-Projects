@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Linq101
 {
@@ -7,16 +9,20 @@ namespace Linq101
         public static void Main(string[] args)
         {
             Console.WriteLine("Hello");
+            Linq l1 = new Linq();
+            l1.GroupByExample();
+
+
             List<int> numbers = new List<int>{1,2,3,10,200,-200,20,37};
             var evenNumber = numbers.Where(x=>x%2==0).ToList();
             foreach(var x in evenNumber)
             {
-                Console.WriteLine(x);
+                // Console.WriteLine(x);
             }
 
             for(int i=0;i<evenNumber.Count;i++)
             {
-                Console.WriteLine(evenNumber[i]);
+                // Console.WriteLine(evenNumber[i]);
             }
             /////////////////////////////////////////
             List<string> names = new List<string>{"Anna","Bob","Cahrlie","David"};
@@ -24,7 +30,7 @@ namespace Linq101
 
             foreach(var x in shortNames)
             {
-                Console.WriteLine($"length less then 3 are: {x}");
+                // Console.WriteLine($"length less then 3 are: {x}");
             }
             ////////////////////////////////////////
             List<string> words = new List<string>{"apple","banana","cherry"};
@@ -32,7 +38,7 @@ namespace Linq101
 
             foreach(var x in wordLength)
             {
-                Console.WriteLine($"Lengths are: {x}");
+                // Console.WriteLine($"Lengths are: {x}");
             }
             ///////////////////////////////////////////////
             ///OrderBy
@@ -40,7 +46,7 @@ namespace Linq101
             var sortedNames = namess.OrderBy(x=>x).ToList();
             foreach(var x in sortedNames)
             {
-                Console.WriteLine($"{x}");
+                // Console.WriteLine($"{x}");
             }
 //////////////*************************************************************
             List<int> num01 = new List<int>{3,2,4};
@@ -48,7 +54,7 @@ namespace Linq101
 
             for(int i=0;i<sortedNum01.Count;i++)
             {
-                Console.WriteLine(sortedNum01[i]);
+                // Console.WriteLine(sortedNum01[i]);
             }
 
 //////////////*************************************************************OredrByDescending
@@ -58,12 +64,12 @@ namespace Linq101
            
            foreach(var name in sortedNames02)
            {
-            Console.WriteLine($"OredrByDescending:  {name}");
+            // Console.WriteLine($"OredrByDescending:  {name}");
            }
 
         List<int> num03 = new List<int>{3,2,4,5,6,-10};
         var sortedNum03 = num03.OrderByDescending(x=>x);
-        
+
 
         }
     }

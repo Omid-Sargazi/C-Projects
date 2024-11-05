@@ -1,0 +1,14 @@
+/home/omidsa/Programmings/CSharp/ProductList/bin/Debug/net7.0/ProductList
+/home/omidsa/Programmings/CSharp/ProductList/bin/Debug/net7.0/ProductList.deps.json
+/home/omidsa/Programmings/CSharp/ProductList/bin/Debug/net7.0/ProductList.runtimeconfig.json
+/home/omidsa/Programmings/CSharp/ProductList/bin/Debug/net7.0/ProductList.dll
+/home/omidsa/Programmings/CSharp/ProductList/bin/Debug/net7.0/ProductList.pdb
+/home/omidsa/Programmings/CSharp/ProductList/obj/Debug/net7.0/ProductList.GeneratedMSBuildEditorConfig.editorconfig
+/home/omidsa/Programmings/CSharp/ProductList/obj/Debug/net7.0/ProductList.AssemblyInfoInputs.cache
+/home/omidsa/Programmings/CSharp/ProductList/obj/Debug/net7.0/ProductList.AssemblyInfo.cs
+/home/omidsa/Programmings/CSharp/ProductList/obj/Debug/net7.0/ProductList.csproj.CoreCompileInputs.cache
+/home/omidsa/Programmings/CSharp/ProductList/obj/Debug/net7.0/ProductList.dll
+/home/omidsa/Programmings/CSharp/ProductList/obj/Debug/net7.0/refint/ProductList.dll
+/home/omidsa/Programmings/CSharp/ProductList/obj/Debug/net7.0/ProductList.pdb
+/home/omidsa/Programmings/CSharp/ProductList/obj/Debug/net7.0/ProductList.genruntimeconfig.cache
+/home/omidsa/Programmings/CSharp/ProductList/obj/Debug/net7.0/ref/ProductList.dll

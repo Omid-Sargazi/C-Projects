@@ -60,5 +60,29 @@ namespace UnitOfWOrk
         {
             _context = context;
         }
+
+        public void CreateOrder(Order order)
+    {
+        _context.Orders.Add(order);
+        _context.SaveChanges();  // Commits immediately
+    }
+    }
+
+    public class CustomerRepository{
+        private readonly AppDbContext _context;
+        public CustomerRepository(AppDbContext context)
+    {
+        _context = context;
+    }
+
+    public void DeductBalance(int customerId, decimal amount)
+    {
+        var customer = _context.Customers.Find(customerId);
+        if (customer != null)
+        {
+            customer.Balance -= amount;
+            _context.SaveChanges();  // Commits immediately
+        }
+    }
     }
 }
