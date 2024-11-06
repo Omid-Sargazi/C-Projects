@@ -1,0 +1,14 @@
+/home/omidsa/Programmings/CSharp/CompleteUnitOfWork/bin/Debug/net7.0/CompleteUnitOfWork
+/home/omidsa/Programmings/CSharp/CompleteUnitOfWork/bin/Debug/net7.0/CompleteUnitOfWork.deps.json
+/home/omidsa/Programmings/CSharp/CompleteUnitOfWork/bin/Debug/net7.0/CompleteUnitOfWork.runtimeconfig.json
+/home/omidsa/Programmings/CSharp/CompleteUnitOfWork/bin/Debug/net7.0/CompleteUnitOfWork.dll
+/home/omidsa/Programmings/CSharp/CompleteUnitOfWork/bin/Debug/net7.0/CompleteUnitOfWork.pdb
+/home/omidsa/Programmings/CSharp/CompleteUnitOfWork/obj/Debug/net7.0/CompleteUnitOfWork.GeneratedMSBuildEditorConfig.editorconfig
+/home/omidsa/Programmings/CSharp/CompleteUnitOfWork/obj/Debug/net7.0/CompleteUnitOfWork.AssemblyInfoInputs.cache
+/home/omidsa/Programmings/CSharp/CompleteUnitOfWork/obj/Debug/net7.0/CompleteUnitOfWork.AssemblyInfo.cs
+/home/omidsa/Programmings/CSharp/CompleteUnitOfWork/obj/Debug/net7.0/CompleteUnitOfWork.csproj.CoreCompileInputs.cache
+/home/omidsa/Programmings/CSharp/CompleteUnitOfWork/obj/Debug/net7.0/CompleteUnitOfWork.dll
+/home/omidsa/Programmings/CSharp/CompleteUnitOfWork/obj/Debug/net7.0/refint/CompleteUnitOfWork.dll
+/home/omidsa/Programmings/CSharp/CompleteUnitOfWork/obj/Debug/net7.0/CompleteUnitOfWork.pdb
+/home/omidsa/Programmings/CSharp/CompleteUnitOfWork/obj/Debug/net7.0/CompleteUnitOfWork.genruntimeconfig.cache
+/home/omidsa/Programmings/CSharp/CompleteUnitOfWork/obj/Debug/net7.0/ref/CompleteUnitOfWork.dll
