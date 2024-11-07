@@ -22,6 +22,12 @@ namespace Repository
             var updatedProduct = productRepo.GetById(1);
             Console.WriteLine($"Updated Product:{updatedProduct.Name},Price:{updatedProduct.Price}");
 
+            var logger = new Logger<string>();
+            logger.Log("This is a log message.");
+
+            var intLogger = new Logger<int>();
+            intLogger.Log(42);
+
         }
     }
 }
