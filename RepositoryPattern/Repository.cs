@@ -8,5 +8,16 @@ namespace Repository
         public void Remove(T entity) => _entities.Remove(entity);
         public T GetById(int id) =>_entities.FirstOrDefault(x => x.Id==id);
         public List<T> GetAll()=>_entities;
+
+        public T Find(Func<T,bool> predicate)=>_entities.FirstOrDefault(predicate);
+
+        public void Update(int id, T updatedEntity)
+        {
+            var entity = GetById(id);
+            if(entity != null){
+                _entities.Remove(entity);
+                _entities.Add(updatedEntity);
+            }
+        }
     }
 }
