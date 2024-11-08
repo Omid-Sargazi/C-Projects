@@ -31,22 +31,28 @@ namespace Generic_Examples
             var averagePrice = products.Average(p=>p.Price);
             var groupedByCategory = products.GroupBy(p=>p.Category).ToList();
             var recentProducts = products.Where(p=>p.CreatedDate>=DateTime.Now.AddMonths(-3));
-            var categoryCounts = products.GroupBy(p=>p.Category).Select(p=>new{Category=p.Key,Count=p.Count}).ToList();
+            var categoryCounts = products.GroupBy(p=>p.Category).Select(p=>new{Category=p.Key,Count=p.Count()}).ToList();
             var lowStockProducts = products.Where(p=>p.StockQuantity<10).ToList();
-            var cheapestFurniture = products.Where(p=>p.Category=="Furniture").OrderBy(p=>p.Price).FirstOrDefault();
+            var hasExactStock = products.Any(p=>p.StockQuantity==20);
+            var productDictionary = products.ToDictionary(p=>p.Id,p=>p.Name);
+
+            // foreach(var item in productDictionary)
+            // {
+            //     Console.WriteLine(item);
+            // }
 
 
 
-
+            Console.WriteLine($"Cheapest: {productDictionary}");
 
 
             Console.WriteLine($"Cheapest: {mostCheapProduct.Price}, most expensive: {mostExpensiveProduct.Price}");
 
-            foreach (var item in recentProducts)
-            {
-                // Console.WriteLine($"ID: {item.Id},Name:{item.Name},Category: {item.Category}, Price: {item.Price},Stock:{item.StockQuantity}");
-                Console.WriteLine($"Name: {item.Name} Price:{item.Price}");
-            }
+            // foreach (var item in recentProducts)
+            // {
+            //     // Console.WriteLine($"ID: {item.Id},Name:{item.Name},Category: {item.Category}, Price: {item.Price},Stock:{item.StockQuantity}");
+            //     Console.WriteLine($"Name: {item.Name} Price:{item.Price}");
+            // }
 
             
         }
