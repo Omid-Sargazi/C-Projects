@@ -30,10 +30,11 @@ namespace Generic_Examples
             var mostCheapProduct = products.OrderByDescending(p=>p.Price).FirstOrDefault();
             var averagePrice = products.Average(p=>p.Price);
             var groupedByCategory = products.GroupBy(p=>p.Category).ToList();
+            var recentProducts = products.Where(p=>p.CreatedDate>=DateTime.Now.AddMonths(-3));
 
             Console.WriteLine($"Cheapest: {mostCheapProduct.Price}, most expensive: {mostExpensiveProduct.Price}");
 
-            foreach (var item in productDetails)
+            foreach (var item in recentProducts)
             {
                 // Console.WriteLine($"ID: {item.Id},Name:{item.Name},Category: {item.Category}, Price: {item.Price},Stock:{item.StockQuantity}");
                 Console.WriteLine($"Name: {item.Name} Price:{item.Price}");
