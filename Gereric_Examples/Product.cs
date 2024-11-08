@@ -9,4 +9,6 @@ namespace Generic_Examples
         public int StockQuantity { get; set; }
         public DateTime CreatedDate { get; set; }
     }
+
+    
 }
