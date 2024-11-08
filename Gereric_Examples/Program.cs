@@ -23,11 +23,16 @@ namespace Generic_Examples
 
             var expensiveProducts = products.Where(p=>p.Price>500).ToList();
             var sortedByPrice = products.OrderBy(p=>p.Price).ToList();
+            var sortedByPriceDesc = products.OrderByDescending(p=>p.Price).ToList();
+            var productDetails = products.Select(p=>new {p.Name,p.Price}).ToList();
 
-            foreach (var item in expensiveProducts)
+            foreach (var item in productDetails)
             {
-                Console.WriteLine($"ID: {item.Id},Name:{item.Name},Category: {item.Category}, Price: {item.Price},Stock:{item.StockQuantity}");
+                // Console.WriteLine($"ID: {item.Id},Name:{item.Name},Category: {item.Category}, Price: {item.Price},Stock:{item.StockQuantity}");
+                Console.WriteLine($"Name: {item.Name} Price:{item.Price}");
             }
+
+            
         }
     }
 }
