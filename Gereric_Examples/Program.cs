@@ -18,6 +18,15 @@ namespace Generic_Examples
                 new Product { Id = 6, Name = "Monitor", Category = "Electronics", Price = 400, StockQuantity = 8, CreatedDate = DateTime.Now.AddMonths(-4) },
                 new Product { Id = 7, Name = "Keyboard", Category = "Accessories", Price = 50, StockQuantity = 50, CreatedDate = DateTime.Now.AddMonths(-1) },
                 new Product { Id = 8, Name = "Mouse", Category = "Accessories", Price = 30, StockQuantity = 100, CreatedDate = DateTime.Now.AddMonths(-2) }
+            };
+
+
+            var expensiveProducts = products.Where(p=>p.Price>500).ToList();
+            var sortedByPrice = products.OrderBy(p=>p.Price).ToList();
+
+            foreach (var item in expensiveProducts)
+            {
+                Console.WriteLine($"ID: {item.Id},Name:{item.Name},Category: {item.Category}, Price: {item.Price},Stock:{item.StockQuantity}");
             }
         }
     }
