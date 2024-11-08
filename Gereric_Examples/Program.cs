@@ -26,6 +26,10 @@ namespace Generic_Examples
             var sortedByPriceDesc = products.OrderByDescending(p=>p.Price).ToList();
             var productDetails = products.Select(p=>new {p.Name,p.Price}).ToList();
             var electronics = products.Where(p=>p.Category=="Electronics").ToList();
+            var mostExpensiveProduct = products.OrderBy(p=>p.Price).FirstOrDefault();
+            var mostCheapProduct = products.OrderByDescending(p=>p.Price).FirstOrDefault();
+
+            Console.WriteLine($"Cheapest: {mostCheapProduct.Price}, most expensive: {mostExpensiveProduct.Price}");
 
             foreach (var item in productDetails)
             {
