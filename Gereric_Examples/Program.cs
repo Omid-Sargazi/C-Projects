@@ -32,6 +32,8 @@ namespace Generic_Examples
             var groupedByCategory = products.GroupBy(p=>p.Category).ToList();
             var recentProducts = products.Where(p=>p.CreatedDate>=DateTime.Now.AddMonths(-3));
             var categoryCounts = products.GroupBy(p=>p.Category).Select(p=>new{Category=p.Key,Count=p.Count}).ToList();
+            var lowStockProducts = products.Where(p=>p.StockQuantity<10).ToList();
+            var cheapestFurniture = products.Where(p=>p.Category=="Furniture").OrderBy(p=>p.Price).FirstOrDefault();
 
 
 
