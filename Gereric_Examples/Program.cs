@@ -28,6 +28,8 @@ namespace Generic_Examples
             var electronics = products.Where(p=>p.Category=="Electronics").ToList();
             var mostExpensiveProduct = products.OrderBy(p=>p.Price).FirstOrDefault();
             var mostCheapProduct = products.OrderByDescending(p=>p.Price).FirstOrDefault();
+            var averagePrice = products.Average(p=>p.Price);
+            var groupedByCategory = products.GroupBy(p=>p.Category).ToList();
 
             Console.WriteLine($"Cheapest: {mostCheapProduct.Price}, most expensive: {mostExpensiveProduct.Price}");
 
