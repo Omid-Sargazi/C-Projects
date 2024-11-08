@@ -31,6 +31,12 @@ namespace Generic_Examples
             var averagePrice = products.Average(p=>p.Price);
             var groupedByCategory = products.GroupBy(p=>p.Category).ToList();
             var recentProducts = products.Where(p=>p.CreatedDate>=DateTime.Now.AddMonths(-3));
+            var categoryCounts = products.GroupBy(p=>p.Category).Select(p=>new{Category=p.Key,Count=p.Count}).ToList();
+
+
+
+
+
 
             Console.WriteLine($"Cheapest: {mostCheapProduct.Price}, most expensive: {mostExpensiveProduct.Price}");
 
