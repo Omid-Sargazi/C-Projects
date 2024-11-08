@@ -7,7 +7,7 @@ namespace Generic_Examples
         public static void Main(string[] args)
         {
             Console.WriteLine("Hello");
-            
+
             var products = new List<Product>
             {
                 new Product { Id = 1, Name = "Laptop", Category = "Electronics", Price = 1200, StockQuantity = 10, CreatedDate = DateTime.Now.AddMonths(-2) },
@@ -18,17 +18,7 @@ namespace Generic_Examples
                 new Product { Id = 6, Name = "Monitor", Category = "Electronics", Price = 400, StockQuantity = 8, CreatedDate = DateTime.Now.AddMonths(-4) },
                 new Product { Id = 7, Name = "Keyboard", Category = "Accessories", Price = 50, StockQuantity = 50, CreatedDate = DateTime.Now.AddMonths(-1) },
                 new Product { Id = 8, Name = "Mouse", Category = "Accessories", Price = 30, StockQuantity = 100, CreatedDate = DateTime.Now.AddMonths(-2) }
-            };
-
-            var expensiveProducts = products.Where(p=>p.Price>500).ToList();///filter products with aprice above $500.
-            var sortedByPrice = products.OrderBy(p=>p.Price).ToList();// TODO: 
-
-            foreach(var item in sortedByPrice)
-            {
-                Console.WriteLine(item.Name);
             }
-
-
         }
     }
 }
