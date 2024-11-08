@@ -25,6 +25,7 @@ namespace Generic_Examples
             var sortedByPrice = products.OrderBy(p=>p.Price).ToList();
             var sortedByPriceDesc = products.OrderByDescending(p=>p.Price).ToList();
             var productDetails = products.Select(p=>new {p.Name,p.Price}).ToList();
+            var electronics = products.Where(p=>p.Category=="Electronics").ToList();
 
             foreach (var item in productDetails)
             {
