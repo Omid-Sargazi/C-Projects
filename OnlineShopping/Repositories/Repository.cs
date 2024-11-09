@@ -19,7 +19,21 @@ namespace EcommerceSystem.Repository
             _context.Set<T>().Remove(entity);
             _context.SaveChanges();
         }
+        public T GetById(int id)
+        {
+            return _context.Set<T>().Find(id);
+        }
+
+        public IEnumerable<T> GetAll()
+        {
+            return _context.Set<T>().ToList();
+        }
+
+        public IEnumerable<T> Find(Func<T, bool> predicate)
+        {
+            return _context.Set<T>().where(predicate).ToList();
+        }
 
         
-    }
+    } 
 }
