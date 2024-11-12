@@ -7,8 +7,7 @@ namespace RepositoryPatternExample
 {
     public class Owner
     {
-        public int ProductId { get; set; }
+       public int OwnerId { get; set; }
         public string Name { get; set; }
-        public decimal Price { get; set; }
     }
 }
