@@ -1,0 +1,14 @@
+/home/omidsa/Programmings/CSharp/RepositoryPattern/bin/Debug/net7.0/RepositoryPattern
+/home/omidsa/Programmings/CSharp/RepositoryPattern/bin/Debug/net7.0/RepositoryPattern.deps.json
+/home/omidsa/Programmings/CSharp/RepositoryPattern/bin/Debug/net7.0/RepositoryPattern.runtimeconfig.json
+/home/omidsa/Programmings/CSharp/RepositoryPattern/bin/Debug/net7.0/RepositoryPattern.dll
+/home/omidsa/Programmings/CSharp/RepositoryPattern/bin/Debug/net7.0/RepositoryPattern.pdb
+/home/omidsa/Programmings/CSharp/RepositoryPattern/obj/Debug/net7.0/RepositoryPattern.GeneratedMSBuildEditorConfig.editorconfig
+/home/omidsa/Programmings/CSharp/RepositoryPattern/obj/Debug/net7.0/RepositoryPattern.AssemblyInfoInputs.cache
+/home/omidsa/Programmings/CSharp/RepositoryPattern/obj/Debug/net7.0/RepositoryPattern.AssemblyInfo.cs
+/home/omidsa/Programmings/CSharp/RepositoryPattern/obj/Debug/net7.0/RepositoryPattern.csproj.CoreCompileInputs.cache
+/home/omidsa/Programmings/CSharp/RepositoryPattern/obj/Debug/net7.0/RepositoryPattern.dll
+/home/omidsa/Programmings/CSharp/RepositoryPattern/obj/Debug/net7.0/refint/RepositoryPattern.dll
+/home/omidsa/Programmings/CSharp/RepositoryPattern/obj/Debug/net7.0/RepositoryPattern.pdb
+/home/omidsa/Programmings/CSharp/RepositoryPattern/obj/Debug/net7.0/RepositoryPattern.genruntimeconfig.cache
+/home/omidsa/Programmings/CSharp/RepositoryPattern/obj/Debug/net7.0/ref/RepositoryPattern.dll

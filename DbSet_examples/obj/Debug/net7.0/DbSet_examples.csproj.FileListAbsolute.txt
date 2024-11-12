@@ -1,0 +1,14 @@
+/home/omidsa/Programmings/CSharp/DbSet_examples/bin/Debug/net7.0/DbSet_examples
+/home/omidsa/Programmings/CSharp/DbSet_examples/bin/Debug/net7.0/DbSet_examples.deps.json
+/home/omidsa/Programmings/CSharp/DbSet_examples/bin/Debug/net7.0/DbSet_examples.runtimeconfig.json
+/home/omidsa/Programmings/CSharp/DbSet_examples/bin/Debug/net7.0/DbSet_examples.dll
+/home/omidsa/Programmings/CSharp/DbSet_examples/bin/Debug/net7.0/DbSet_examples.pdb
+/home/omidsa/Programmings/CSharp/DbSet_examples/obj/Debug/net7.0/DbSet_examples.GeneratedMSBuildEditorConfig.editorconfig
+/home/omidsa/Programmings/CSharp/DbSet_examples/obj/Debug/net7.0/DbSet_examples.AssemblyInfoInputs.cache
+/home/omidsa/Programmings/CSharp/DbSet_examples/obj/Debug/net7.0/DbSet_examples.AssemblyInfo.cs
+/home/omidsa/Programmings/CSharp/DbSet_examples/obj/Debug/net7.0/DbSet_examples.csproj.CoreCompileInputs.cache
+/home/omidsa/Programmings/CSharp/DbSet_examples/obj/Debug/net7.0/DbSet_examples.dll
+/home/omidsa/Programmings/CSharp/DbSet_examples/obj/Debug/net7.0/refint/DbSet_examples.dll
+/home/omidsa/Programmings/CSharp/DbSet_examples/obj/Debug/net7.0/DbSet_examples.pdb
+/home/omidsa/Programmings/CSharp/DbSet_examples/obj/Debug/net7.0/DbSet_examples.genruntimeconfig.cache
+/home/omidsa/Programmings/CSharp/DbSet_examples/obj/Debug/net7.0/ref/DbSet_examples.dll

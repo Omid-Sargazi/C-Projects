@@ -1,0 +1,14 @@
+/home/omidsa/Programmings/CSharp/ExmpleOFGenerics/bin/Debug/net7.0/ExmpleOFGenerics
+/home/omidsa/Programmings/CSharp/ExmpleOFGenerics/bin/Debug/net7.0/ExmpleOFGenerics.deps.json
+/home/omidsa/Programmings/CSharp/ExmpleOFGenerics/bin/Debug/net7.0/ExmpleOFGenerics.runtimeconfig.json
+/home/omidsa/Programmings/CSharp/ExmpleOFGenerics/bin/Debug/net7.0/ExmpleOFGenerics.dll
+/home/omidsa/Programmings/CSharp/ExmpleOFGenerics/bin/Debug/net7.0/ExmpleOFGenerics.pdb
+/home/omidsa/Programmings/CSharp/ExmpleOFGenerics/obj/Debug/net7.0/ExmpleOFGenerics.GeneratedMSBuildEditorConfig.editorconfig
+/home/omidsa/Programmings/CSharp/ExmpleOFGenerics/obj/Debug/net7.0/ExmpleOFGenerics.AssemblyInfoInputs.cache
+/home/omidsa/Programmings/CSharp/ExmpleOFGenerics/obj/Debug/net7.0/ExmpleOFGenerics.AssemblyInfo.cs
+/home/omidsa/Programmings/CSharp/ExmpleOFGenerics/obj/Debug/net7.0/ExmpleOFGenerics.csproj.CoreCompileInputs.cache
+/home/omidsa/Programmings/CSharp/ExmpleOFGenerics/obj/Debug/net7.0/ExmpleOFGenerics.dll
+/home/omidsa/Programmings/CSharp/ExmpleOFGenerics/obj/Debug/net7.0/refint/ExmpleOFGenerics.dll
+/home/omidsa/Programmings/CSharp/ExmpleOFGenerics/obj/Debug/net7.0/ExmpleOFGenerics.pdb
+/home/omidsa/Programmings/CSharp/ExmpleOFGenerics/obj/Debug/net7.0/ExmpleOFGenerics.genruntimeconfig.cache
+/home/omidsa/Programmings/CSharp/ExmpleOFGenerics/obj/Debug/net7.0/ref/ExmpleOFGenerics.dll

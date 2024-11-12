@@ -1,0 +1,14 @@
+/home/omidsa/Programmings/CSharp/Generics_Examples/bin/Debug/net7.0/Generics_Examples
+/home/omidsa/Programmings/CSharp/Generics_Examples/bin/Debug/net7.0/Generics_Examples.deps.json
+/home/omidsa/Programmings/CSharp/Generics_Examples/bin/Debug/net7.0/Generics_Examples.runtimeconfig.json
+/home/omidsa/Programmings/CSharp/Generics_Examples/bin/Debug/net7.0/Generics_Examples.dll
+/home/omidsa/Programmings/CSharp/Generics_Examples/bin/Debug/net7.0/Generics_Examples.pdb
+/home/omidsa/Programmings/CSharp/Generics_Examples/obj/Debug/net7.0/Generics_Examples.GeneratedMSBuildEditorConfig.editorconfig
+/home/omidsa/Programmings/CSharp/Generics_Examples/obj/Debug/net7.0/Generics_Examples.AssemblyInfoInputs.cache
+/home/omidsa/Programmings/CSharp/Generics_Examples/obj/Debug/net7.0/Generics_Examples.AssemblyInfo.cs
+/home/omidsa/Programmings/CSharp/Generics_Examples/obj/Debug/net7.0/Generics_Examples.csproj.CoreCompileInputs.cache
+/home/omidsa/Programmings/CSharp/Generics_Examples/obj/Debug/net7.0/Generics_Examples.dll
+/home/omidsa/Programmings/CSharp/Generics_Examples/obj/Debug/net7.0/refint/Generics_Examples.dll
+/home/omidsa/Programmings/CSharp/Generics_Examples/obj/Debug/net7.0/Generics_Examples.pdb
+/home/omidsa/Programmings/CSharp/Generics_Examples/obj/Debug/net7.0/Generics_Examples.genruntimeconfig.cache
+/home/omidsa/Programmings/CSharp/Generics_Examples/obj/Debug/net7.0/ref/Generics_Examples.dll

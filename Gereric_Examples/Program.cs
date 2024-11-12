@@ -35,6 +35,8 @@ namespace Generic_Examples
             var lowStockProducts = products.Where(p=>p.StockQuantity<10).ToList();
             var hasExactStock = products.Any(p=>p.StockQuantity==20);
             var productDictionary = products.ToDictionary(p=>p.Id,p=>p.Name);
+            var sortedByStockAndPrice = products.OrderBy(P=>P.StockQuantity)
+                                                .ThenBy(p=>p.Price).ToLis();
 
             // foreach(var item in productDictionary)
             // {

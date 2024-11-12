@@ -28,6 +28,19 @@ namespace Repository
             var intLogger = new Logger<int>();
             intLogger.Log(42);
 
+            var productValidator = new Validator<Products>();
+            var products = new Products{Id=1,Name="Laptop",Price=1200};
+            bool isValidPrice = productValidator.isValid(products,products=>products.Price>1000);
+            Console.WriteLine($"Is the product price valid? {isValidPrice}");
+
+            //////////////////////////////////////////////////////////
+            var customerValidator = new Validator<Customer>();
+            var customer = new Customer {Id=1,FullName = "John Doe", Email = "john@example.com"};
+            bool isValidEmail = customerValidator.isValid(customer,c=>c.Email.Contains("@"));
+            Console.WriteLine($"Is the customer email valid? {isValidEmail}");
+
+
+
         }
     }
 }

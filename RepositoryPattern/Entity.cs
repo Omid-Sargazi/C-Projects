@@ -9,7 +9,7 @@ namespace Repository
     public class Product: Entity
     {
         public string Name{ get; set; }
-        public string Price { get; set; }
+        public decimal Price { get; set; }
     }
 
     public class Customer: Entity
