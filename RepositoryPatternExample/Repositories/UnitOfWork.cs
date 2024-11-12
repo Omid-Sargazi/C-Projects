@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace RepositoryPatternExample.Repositories
+namespace RepositoryPatternExample
 {
     public class UnitOfWork:IUnitOfWork
     {
         private readonly EcommerceContext  _context;
 
-        public IRepository<Customer> Customers {get, private set;}
-        public IRepository<Product> Products {get, private set;}
-        public IRepository<Order> Orders {get, private set;}
-        public IRepository<OrderItem> OrderItems {get, private set;}
+        public IRepository<Customer> Customers {get; private set;}
+        public IRepository<Product> Products {get; private set;}
+        public IRepository<Order> Orders {get; private set;}
+        public IRepository<OrderItem> OrderItems {get; private set;}
 
         public UnitOfWork(EcommerceContext context)
         {

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace RepositoryPatternExample
 {
-    public class Repository:IRepository<T> where T:class
+    public class Repository<T>:IRepository<T> where T:class
     {
         private readonly EcommerceContext _context;
 
@@ -38,7 +38,7 @@ namespace RepositoryPatternExample
 
         public IEnumerable<T> Find(Func<T,bool> predicate)
         {
-            return _context.Set<T>().where(predicate).ToList();
+            return _context.Set<T>().Where(predicate).ToList();
         }
 
  }
