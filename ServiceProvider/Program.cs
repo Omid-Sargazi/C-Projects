@@ -7,39 +7,46 @@ namespace ServiceProvider
     {
         static void Main(string[] args)
         {
-            var serviceProvider = new ServiceCollection()
+           Console.WriteLine("Hello");
+           var serviceProvider = new ServiceCollection()
                 .AddDbContext<EcommerceContext>(options => options.UseInMemoryDatabase("EcommerceDb"))
                 .AddScoped<IUnitOfWork, UnitOfWork>()
                 .BuildServiceProvider();
-
-            // Step 5: Use the service provider to get the instance of IUnitOfWork
             var unitOfWork = serviceProvider.GetService<IUnitOfWork>();
 
-            // Step 6: Perform some operations (e.g., add a customer)
-            var customer = new Customer { Name = "John Doe", Email = "john.doe@example.com" };
+            var product1 = new Product { Name = "Laptop", Price = 1000 };
+            var product2 = new Product { Name = "Phone", Price = 500 };
+            unitOfWork.Products.Add(product1);
+            unitOfWork.Products.Add(product2);
+
+            var customer = new Customer { Name = "John Doe", Email = "john@example.com" };
             unitOfWork.Customers.Add(customer);
 
-            // Step 7: Save changes to the database
+            // Add new order
+            var order = new Order { OrderDate = DateTime.Now, Customer = customer };
+            unitOfWork.Orders.Add(order);
+
+            // Add order items (products) to the order
+            unitOfWork.OrderItems.Add(new OrderItem { Product = product1, Quantity = 1 });
+            unitOfWork.OrderItems.Add(new OrderItem { Product = product2, Quantity = 2 });
+
+            // Save changes
             unitOfWork.Save();
 
-            // Step 8: Retrieve and display the customer to show it was added
-            // var addedCustomer = unitOfWork.Customers as Repository<Customer>;
-            // var customerList = addedCustomer.GetType().GetMethod("Add")?.Invoke(addedCustomer, null); // using reflection just for demonstration
-            var addedCustomer = unitOfWork.Customers as Repository<Customer>;
+            var customersWithOrders = unitOfWork.Customers.Find(c => c.CustomerId == customer.CustomerId).FirstOrDefault();
 
-// Add the customer without using reflection
-        addedCustomer?.Add(customer);
-
-// Display a success message
-        Console.WriteLine("Customer added successfully!");
-        Console.WriteLine($"Name: {customer.Name}, Email: {customer.Email}");
-
-            Console.WriteLine("Customer added successfully!");
-
-            // Display the customer details
-            Console.WriteLine($"Name: {customer.Name}, Email: {customer.Email}");
-            
-        }
+            if (customersWithOrders != null)
+            {
+                Console.WriteLine($"Customer: {customersWithOrders.Name}");
+                foreach (var ord in customersWithOrders.Orders)
+                {
+                    Console.WriteLine($"Order Date: {ord.OrderDate}");
+                    foreach (var item in ord.OrderItems)
+                    {
+                        Console.WriteLine($"- Product: {item.Product.Name}, Quantity: {item.Quantity}, Total Price: {item.TotalPrice}");
+                    }
+                }
+            }
     }
 }
- 
+}

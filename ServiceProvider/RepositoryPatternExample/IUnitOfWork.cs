@@ -5,9 +5,12 @@ using System.Threading.Tasks;
 
 namespace ServiceProvider
 {
-    public interface IUnitOfWork
+    public interface IUnitOfWork:IDisposable
     {
         IRepository<Customer> Customers { get; }
+        IRepository<Product> Products { get; }
+        IRepository<Order> Orders { get; }
+        IRepository <OrderItem> OrderItems { get; }
         void Save();
     }
 }
