@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "9c9ZHBN2E4LdwMY0POBHZINcha08ZmR8jhMqP4R2RKsihwLMs9DM7TnW8VNigORNLYSBSAcZxv6KvCZGJ7SijA==",
+  "success": true,
+  "projectFilePath": "/home/omidsa/Programmings/CSharp/MediatRExample02/MediatRExample02.csproj",
+  "expectedPackageFiles": [
+    "/home/omidsa/.nuget/packages/mediatr/12.4.1/mediatr.12.4.1.nupkg.sha512",
+    "/home/omidsa/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/home/omidsa/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.0/microsoft.extensions.dependencyinjection.9.0.0.nupkg.sha512",
+    "/home/omidsa/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.0/microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
