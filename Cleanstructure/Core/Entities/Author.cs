@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Cleanstructure.Core
+namespace Cleanstructure.Core.Entities
 {
     public class Author
     {

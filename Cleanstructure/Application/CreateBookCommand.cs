@@ -2,15 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-
-namespace Cleanstructure.Core
+using MediatR;
+namespace Cleanstructure.Application
 {
-    public class Book
+    public class CreateBookCommand:IRequest<int>
     {
-        public int Id { get; set; }
         public string Title { get; set; }
         public string ISBN { get; set; }
-        public int AuthorId { get; set; }
-        public Author Author { get; set; }  
     }
 }
