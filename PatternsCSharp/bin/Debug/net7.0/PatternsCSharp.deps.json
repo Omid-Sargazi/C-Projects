@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "PatternsCSharp/1.0.0": {
+        "runtime": {
+          "PatternsCSharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PatternsCSharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

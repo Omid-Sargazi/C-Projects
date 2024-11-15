@@ -1,0 +1,14 @@
+/home/omidsa/Programmings/CSharp/PatternsCSharp/bin/Debug/net7.0/PatternsCSharp
+/home/omidsa/Programmings/CSharp/PatternsCSharp/bin/Debug/net7.0/PatternsCSharp.deps.json
+/home/omidsa/Programmings/CSharp/PatternsCSharp/bin/Debug/net7.0/PatternsCSharp.runtimeconfig.json
+/home/omidsa/Programmings/CSharp/PatternsCSharp/bin/Debug/net7.0/PatternsCSharp.dll
+/home/omidsa/Programmings/CSharp/PatternsCSharp/bin/Debug/net7.0/PatternsCSharp.pdb
+/home/omidsa/Programmings/CSharp/PatternsCSharp/obj/Debug/net7.0/PatternsCSharp.GeneratedMSBuildEditorConfig.editorconfig
+/home/omidsa/Programmings/CSharp/PatternsCSharp/obj/Debug/net7.0/PatternsCSharp.AssemblyInfoInputs.cache
+/home/omidsa/Programmings/CSharp/PatternsCSharp/obj/Debug/net7.0/PatternsCSharp.AssemblyInfo.cs
+/home/omidsa/Programmings/CSharp/PatternsCSharp/obj/Debug/net7.0/PatternsCSharp.csproj.CoreCompileInputs.cache
+/home/omidsa/Programmings/CSharp/PatternsCSharp/obj/Debug/net7.0/PatternsCSharp.dll
+/home/omidsa/Programmings/CSharp/PatternsCSharp/obj/Debug/net7.0/refint/PatternsCSharp.dll
+/home/omidsa/Programmings/CSharp/PatternsCSharp/obj/Debug/net7.0/PatternsCSharp.pdb
+/home/omidsa/Programmings/CSharp/PatternsCSharp/obj/Debug/net7.0/PatternsCSharp.genruntimeconfig.cache
+/home/omidsa/Programmings/CSharp/PatternsCSharp/obj/Debug/net7.0/ref/PatternsCSharp.dll
