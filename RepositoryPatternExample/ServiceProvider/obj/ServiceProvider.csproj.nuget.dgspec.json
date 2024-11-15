@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/omidsa/Programmings/CSharp/RepositoryPatternExample/RepositoryPatternExample.csproj": {}
+    "/home/omidsa/Programmings/CSharp/RepositoryPatternExample/ServiceProvider/ServiceProvider.csproj": {}
   },
   "projects": {
-    "/home/omidsa/Programmings/CSharp/RepositoryPatternExample/RepositoryPatternExample.csproj": {
+    "/home/omidsa/Programmings/CSharp/RepositoryPatternExample/ServiceProvider/ServiceProvider.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/omidsa/Programmings/CSharp/RepositoryPatternExample/RepositoryPatternExample.csproj",
-        "projectName": "RepositoryPatternExample",
-        "projectPath": "/home/omidsa/Programmings/CSharp/RepositoryPatternExample/RepositoryPatternExample.csproj",
+        "projectUniqueName": "/home/omidsa/Programmings/CSharp/RepositoryPatternExample/ServiceProvider/ServiceProvider.csproj",
+        "projectName": "ServiceProvider",
+        "projectPath": "/home/omidsa/Programmings/CSharp/RepositoryPatternExample/ServiceProvider/ServiceProvider.csproj",
         "packagesPath": "/home/omidsa/.nuget/packages/",
-        "outputPath": "/home/omidsa/Programmings/CSharp/RepositoryPatternExample/obj/",
+        "outputPath": "/home/omidsa/Programmings/CSharp/RepositoryPatternExample/ServiceProvider/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/omidsa/.nuget/NuGet/NuGet.Config"
@@ -37,20 +37,6 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[7.0.12, )"
-            },
-            "Microsoft.EntityFrameworkCore.InMemory": {
-              "target": "Package",
-              "version": "[7.0.12, )"
-            },
-            "Microsoft.Extensions.DependencyInjection": {
-              "target": "Package",
-              "version": "[8.0.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
