@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using MediatR;
-namespace Cleanstructure.Application
+namespace Cleanstructure.Application.Commands
 {
     public class CreateBookCommand:IRequest<int>
     {
