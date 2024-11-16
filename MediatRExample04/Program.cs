@@ -2,6 +2,7 @@
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using System.Threading.Tasks;
+using MediatRExample04.Commands;
 
 namespace MediatRExample04
 {

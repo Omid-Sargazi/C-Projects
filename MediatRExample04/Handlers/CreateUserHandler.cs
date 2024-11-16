@@ -4,8 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using MediatR;
 using System.Threading;
+using MediatRExample04.Commands;
 
-namespace MediatRExample04
+namespace MediatRExample04.Handlers
 {
    public class CreateUserHandler : IRequestHandler<CreateUserCommand, string>
 {

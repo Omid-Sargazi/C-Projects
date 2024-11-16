@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using System.Threading;
 using MediatR;
 
-namespace MediatRExample04
+namespace MediatRExample04.Commands
 {
     public class CreateUserCommand : IRequest<string>
 {
