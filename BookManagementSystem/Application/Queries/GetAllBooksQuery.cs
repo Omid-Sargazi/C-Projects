@@ -7,7 +7,6 @@ namespace BookManagementSystem.Application.Queries
 {
     public class GetAllBooksQuery
     {
-        public string Title { get; set; }
-        public string Author { get; set; }
+        public List<Book> Books { get; set; }
     }
 }
