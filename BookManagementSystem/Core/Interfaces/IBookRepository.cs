@@ -7,6 +7,7 @@ namespace BookManagementSystem.Core.Interfaces
 {
     public interface IBookRepository
     {
-        
+        Task<int> AddBookAsync(Book book);
+        Task<List<Book>> GetAllBookAsync();
     }
 }
