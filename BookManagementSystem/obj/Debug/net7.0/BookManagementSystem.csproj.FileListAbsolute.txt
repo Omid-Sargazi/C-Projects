@@ -1,0 +1,14 @@
+/home/omidsa/Programmings/CSharp/BookManagementSystem/bin/Debug/net7.0/BookManagementSystem
+/home/omidsa/Programmings/CSharp/BookManagementSystem/bin/Debug/net7.0/BookManagementSystem.deps.json
+/home/omidsa/Programmings/CSharp/BookManagementSystem/bin/Debug/net7.0/BookManagementSystem.runtimeconfig.json
+/home/omidsa/Programmings/CSharp/BookManagementSystem/bin/Debug/net7.0/BookManagementSystem.dll
+/home/omidsa/Programmings/CSharp/BookManagementSystem/bin/Debug/net7.0/BookManagementSystem.pdb
+/home/omidsa/Programmings/CSharp/BookManagementSystem/obj/Debug/net7.0/BookManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+/home/omidsa/Programmings/CSharp/BookManagementSystem/obj/Debug/net7.0/BookManagementSystem.AssemblyInfoInputs.cache
+/home/omidsa/Programmings/CSharp/BookManagementSystem/obj/Debug/net7.0/BookManagementSystem.AssemblyInfo.cs
+/home/omidsa/Programmings/CSharp/BookManagementSystem/obj/Debug/net7.0/BookManagementSystem.csproj.CoreCompileInputs.cache
+/home/omidsa/Programmings/CSharp/BookManagementSystem/obj/Debug/net7.0/BookManagementSystem.dll
+/home/omidsa/Programmings/CSharp/BookManagementSystem/obj/Debug/net7.0/refint/BookManagementSystem.dll
+/home/omidsa/Programmings/CSharp/BookManagementSystem/obj/Debug/net7.0/BookManagementSystem.pdb
+/home/omidsa/Programmings/CSharp/BookManagementSystem/obj/Debug/net7.0/BookManagementSystem.genruntimeconfig.cache
+/home/omidsa/Programmings/CSharp/BookManagementSystem/obj/Debug/net7.0/ref/BookManagementSystem.dll
