@@ -1,0 +1,14 @@
+/home/omidsa/Programmings/CSharp/DataStructure/bin/Debug/net7.0/DataStructure
+/home/omidsa/Programmings/CSharp/DataStructure/bin/Debug/net7.0/DataStructure.deps.json
+/home/omidsa/Programmings/CSharp/DataStructure/bin/Debug/net7.0/DataStructure.runtimeconfig.json
+/home/omidsa/Programmings/CSharp/DataStructure/bin/Debug/net7.0/DataStructure.dll
+/home/omidsa/Programmings/CSharp/DataStructure/bin/Debug/net7.0/DataStructure.pdb
+/home/omidsa/Programmings/CSharp/DataStructure/obj/Debug/net7.0/DataStructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/omidsa/Programmings/CSharp/DataStructure/obj/Debug/net7.0/DataStructure.AssemblyInfoInputs.cache
+/home/omidsa/Programmings/CSharp/DataStructure/obj/Debug/net7.0/DataStructure.AssemblyInfo.cs
+/home/omidsa/Programmings/CSharp/DataStructure/obj/Debug/net7.0/DataStructure.csproj.CoreCompileInputs.cache
+/home/omidsa/Programmings/CSharp/DataStructure/obj/Debug/net7.0/DataStructure.dll
+/home/omidsa/Programmings/CSharp/DataStructure/obj/Debug/net7.0/refint/DataStructure.dll
+/home/omidsa/Programmings/CSharp/DataStructure/obj/Debug/net7.0/DataStructure.pdb
+/home/omidsa/Programmings/CSharp/DataStructure/obj/Debug/net7.0/DataStructure.genruntimeconfig.cache
+/home/omidsa/Programmings/CSharp/DataStructure/obj/Debug/net7.0/ref/DataStructure.dll
