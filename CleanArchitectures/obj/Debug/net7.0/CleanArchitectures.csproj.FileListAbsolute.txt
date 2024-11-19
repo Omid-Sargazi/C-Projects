@@ -1,0 +1,14 @@
+/home/omidsa/Programmings/CSharp/CleanArchitectures/bin/Debug/net7.0/CleanArchitectures
+/home/omidsa/Programmings/CSharp/CleanArchitectures/bin/Debug/net7.0/CleanArchitectures.deps.json
+/home/omidsa/Programmings/CSharp/CleanArchitectures/bin/Debug/net7.0/CleanArchitectures.runtimeconfig.json
+/home/omidsa/Programmings/CSharp/CleanArchitectures/bin/Debug/net7.0/CleanArchitectures.dll
+/home/omidsa/Programmings/CSharp/CleanArchitectures/bin/Debug/net7.0/CleanArchitectures.pdb
+/home/omidsa/Programmings/CSharp/CleanArchitectures/obj/Debug/net7.0/CleanArchitectures.GeneratedMSBuildEditorConfig.editorconfig
+/home/omidsa/Programmings/CSharp/CleanArchitectures/obj/Debug/net7.0/CleanArchitectures.AssemblyInfoInputs.cache
+/home/omidsa/Programmings/CSharp/CleanArchitectures/obj/Debug/net7.0/CleanArchitectures.AssemblyInfo.cs
+/home/omidsa/Programmings/CSharp/CleanArchitectures/obj/Debug/net7.0/CleanArchitectures.csproj.CoreCompileInputs.cache
+/home/omidsa/Programmings/CSharp/CleanArchitectures/obj/Debug/net7.0/CleanArchitectures.dll
+/home/omidsa/Programmings/CSharp/CleanArchitectures/obj/Debug/net7.0/refint/CleanArchitectures.dll
+/home/omidsa/Programmings/CSharp/CleanArchitectures/obj/Debug/net7.0/CleanArchitectures.pdb
+/home/omidsa/Programmings/CSharp/CleanArchitectures/obj/Debug/net7.0/CleanArchitectures.genruntimeconfig.cache
+/home/omidsa/Programmings/CSharp/CleanArchitectures/obj/Debug/net7.0/ref/CleanArchitectures.dll
