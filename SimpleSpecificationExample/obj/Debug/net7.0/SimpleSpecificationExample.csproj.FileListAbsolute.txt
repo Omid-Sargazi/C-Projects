@@ -1,0 +1,14 @@
+/home/omidsa/Programmings/CSharp/SimpleSpecificationExample/bin/Debug/net7.0/SimpleSpecificationExample
+/home/omidsa/Programmings/CSharp/SimpleSpecificationExample/bin/Debug/net7.0/SimpleSpecificationExample.deps.json
+/home/omidsa/Programmings/CSharp/SimpleSpecificationExample/bin/Debug/net7.0/SimpleSpecificationExample.runtimeconfig.json
+/home/omidsa/Programmings/CSharp/SimpleSpecificationExample/bin/Debug/net7.0/SimpleSpecificationExample.dll
+/home/omidsa/Programmings/CSharp/SimpleSpecificationExample/bin/Debug/net7.0/SimpleSpecificationExample.pdb
+/home/omidsa/Programmings/CSharp/SimpleSpecificationExample/obj/Debug/net7.0/SimpleSpecificationExample.GeneratedMSBuildEditorConfig.editorconfig
+/home/omidsa/Programmings/CSharp/SimpleSpecificationExample/obj/Debug/net7.0/SimpleSpecificationExample.AssemblyInfoInputs.cache
+/home/omidsa/Programmings/CSharp/SimpleSpecificationExample/obj/Debug/net7.0/SimpleSpecificationExample.AssemblyInfo.cs
+/home/omidsa/Programmings/CSharp/SimpleSpecificationExample/obj/Debug/net7.0/SimpleSpecificationExample.csproj.CoreCompileInputs.cache
+/home/omidsa/Programmings/CSharp/SimpleSpecificationExample/obj/Debug/net7.0/SimpleSpecificationExample.dll
+/home/omidsa/Programmings/CSharp/SimpleSpecificationExample/obj/Debug/net7.0/refint/SimpleSpecificationExample.dll
+/home/omidsa/Programmings/CSharp/SimpleSpecificationExample/obj/Debug/net7.0/SimpleSpecificationExample.pdb
+/home/omidsa/Programmings/CSharp/SimpleSpecificationExample/obj/Debug/net7.0/SimpleSpecificationExample.genruntimeconfig.cache
+/home/omidsa/Programmings/CSharp/SimpleSpecificationExample/obj/Debug/net7.0/ref/SimpleSpecificationExample.dll
