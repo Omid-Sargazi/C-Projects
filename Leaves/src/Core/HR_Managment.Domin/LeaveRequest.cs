@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 
 namespace HR_Managment.Domin
 {
-    public class LeaveRequest
+    public class LeaveRequest:BaseDominEntity
     {
-        public int Id { get; set; }
+        
         public DateTime StartDate { get; set; }
         public DateTime EndDate{ get; set; }
 

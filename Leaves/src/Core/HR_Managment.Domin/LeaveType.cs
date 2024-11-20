@@ -5,11 +5,12 @@ using System.Threading.Tasks;
 
 namespace HR_Managment.Domin
 {
-    public class LeaveType
+    public class LeaveType:BaseDominEntity
     {
-        public int Id { get; set; }
+       
         public string Name { get; set; }
         public int DefaultDate { get; set; }
-        public DateTime DateCreated { get; set; }
+       
+
     }
 }
