@@ -3,6 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{07A63CD1-4422-452B-BC9A-D88AC476A81D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{50635275-0702-4D42-8AC8-817E8D2B4578}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR_Managment.Application", "src\Core\HR_Managment.Application\HR_Managment.Application.csproj", "{E044E47A-EDC4-41BB-9AD1-60C43721047D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR_Managment.Domin", "src\Core\HR_Managment.Domin\HR_Managment.Domin.csproj", "{0FBCBF23-D435-4CD5-9B6F-75025505FDEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +18,20 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E044E47A-EDC4-41BB-9AD1-60C43721047D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E044E47A-EDC4-41BB-9AD1-60C43721047D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E044E47A-EDC4-41BB-9AD1-60C43721047D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E044E47A-EDC4-41BB-9AD1-60C43721047D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FBCBF23-D435-4CD5-9B6F-75025505FDEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FBCBF23-D435-4CD5-9B6F-75025505FDEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FBCBF23-D435-4CD5-9B6F-75025505FDEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FBCBF23-D435-4CD5-9B6F-75025505FDEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{50635275-0702-4D42-8AC8-817E8D2B4578} = {07A63CD1-4422-452B-BC9A-D88AC476A81D}
+		{E044E47A-EDC4-41BB-9AD1-60C43721047D} = {50635275-0702-4D42-8AC8-817E8D2B4578}
+		{0FBCBF23-D435-4CD5-9B6F-75025505FDEE} = {50635275-0702-4D42-8AC8-817E8D2B4578}
 	EndGlobalSection
 EndGlobal
