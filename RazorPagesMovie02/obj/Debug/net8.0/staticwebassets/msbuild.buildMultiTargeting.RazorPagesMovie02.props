@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/RazorPagesMovie02.props" />
+</Project>
