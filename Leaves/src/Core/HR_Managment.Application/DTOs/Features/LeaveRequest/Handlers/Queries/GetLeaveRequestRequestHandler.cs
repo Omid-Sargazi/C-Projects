@@ -10,7 +10,7 @@ using HR_Managment.Application.Persistance.Contracts;
 
 namespace HR_Managment.Application.DTOs.Features.LeaveRequest.Handlers.Queries
 {
-    public class GetLeaveRequestRequestHandler:IRequestHandler<GetLeaveRequestRequest,List<LeaveRequestDTo>>
+    public class GetLeaveRequestRequestHandler:IRequestHandler<GetLeaveRequestRequest,List<LeaveRequesListDTo>>
     {
         private readonly IMapper _mapper;
         private readonly ILeaveRequestRepository _leaveRequestRepository;
@@ -21,10 +21,10 @@ namespace HR_Managment.Application.DTOs.Features.LeaveRequest.Handlers.Queries
             _mapper=mapper;
         }
 
-        public async Task<List<LeaveRequestDTo>> Handle(GetLeaveRequestRequest request,CancellationToken cancellationToken)
+        public async Task<List<LeaveRequesListDTo>> Handle(GetLeaveRequestRequest request,CancellationToken cancellationToken)
         {
-            var leaveRequest = await _leaveRequestRepository.GetAll();
-            return _mapper.Map<List<LeaveRequestDTo>>(leaveRequest);
+            var leaveRequest = await _leaveRequestRepository.GetLeaveRequestsWithDetails();
+            return _mapper.Map<List<LeaveRequesListDTo>>(leaveRequest);
         }
     }
 }
