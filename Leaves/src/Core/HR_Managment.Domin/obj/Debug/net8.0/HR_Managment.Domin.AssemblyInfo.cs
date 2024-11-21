@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HR_Managment.Domin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a8b45819d8e26576bb3b90748e58366f45fe9f2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+932352c7d3210dfdd27e27b5df639002fd5f09f7")]
 [assembly: System.Reflection.AssemblyProductAttribute("HR_Managment.Domin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HR_Managment.Domin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

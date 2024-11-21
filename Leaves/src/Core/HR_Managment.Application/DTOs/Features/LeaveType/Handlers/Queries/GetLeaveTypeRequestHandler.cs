@@ -16,12 +16,12 @@ namespace HR_Managment.Application.DTOs.Features.LeaveType.Handlers.Queries
         private readonly ILeaveTypeRepository _leaveTypeRepository;
         private readonly IMapper _mapper;
 
-        public GetLeaveTypeRequestHandler(ILeaveTypeRepository _leaveTypeRepository
+        public GetLeaveTypeRequestHandler(ILeaveTypeRepository leaveTypeRepository
 ,IMapper mapper)
-{
-    _leaveTypeRepository = _leaveTypeRepository;
-    _mapper = mapper;
-}
+    {
+        _leaveTypeRepository = leaveTypeRepository;
+        _mapper = mapper;
+    }   
         public async Task<List<LeaveTypeDTo>> Handle(GetLeaveTypeRequest request,CancellationToken cancellationToken)
         {
             var LeaveTypeList = await _leaveTypeRepository.GetAll();
