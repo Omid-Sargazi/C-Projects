@@ -33,4 +33,20 @@ namespace UnifiedType
             return $"Employee: {Name}, Age: {Age}";
         }
     }
+
+    public interface IPaymentMethod
+    {
+        void ProcessPayment(decimal amount);
+    }
+
+    public class CreditCard: IPaymentMethod
+    {
+        public string CardNumber { get; set; }
+        public string CardHolder {get; set; }
+
+        public void ProcessPayment(decimal amount)
+        {
+            Console.WriteLine($"Processing Credit Card payment of ${amount} for {CardHolder}.");
+        }
+    }
 }
