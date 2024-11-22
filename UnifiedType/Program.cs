@@ -25,6 +25,16 @@ namespace UnifiedType
             paymentMethod = new CreditCard  {CardNumber="12",CardHolder="54"};
             paymentMethod.ProcessPayment(20.36m);
             Console.WriteLine("//////////////////////////");
+            /// 
+            /// 
+            /// 
+            Console.WriteLine("//////////////////////////");
+            var emailNotifier = new EmailNotification();
+            var smsNotifier = new SMSNotification();
+            var notificationService = new NotificationService();
+            notificationService.NotificationSent += (msg) => Console.WriteLine($"Log: Notification sent - {msg}");
+            notificationService.Notify(emailNotifier, "Hello via Email!");
+        notificationService.Notify(smsNotifier, "Hello via SMS!");
 
         }
     }
