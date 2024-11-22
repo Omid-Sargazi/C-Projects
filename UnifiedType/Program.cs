@@ -20,6 +20,12 @@ namespace UnifiedType
             Employee originalEmployee = (Employee)objeEmployee;
             Console.WriteLine($"Original number: {originalNumber}, Original employee name: {originalEmployee.Name}");
 
+            Console.WriteLine("//////////////////////////");
+            IPaymentMethod paymentMethod;
+            paymentMethod = new CreditCard  {CardNumber="12",CardHolder="54"};
+            paymentMethod.ProcessPayment(20.36m);
+            Console.WriteLine("//////////////////////////");
+
         }
     }
 
