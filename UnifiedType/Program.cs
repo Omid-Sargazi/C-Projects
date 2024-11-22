@@ -86,4 +86,15 @@ namespace UnifiedType
             Console.WriteLine($"SMS sent: {message}");
         }
     }
+
+    public class NotificationService
+    {
+        public event Action<string> NotificationSent;
+
+        public void Notify(ISendNotification notifier, string message)
+        {
+            notifier.Send(message);
+            NotificationSent?.Invoke(message);
+        }
+    }
 }
