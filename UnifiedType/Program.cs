@@ -78,4 +78,12 @@ namespace UnifiedType
             Console.WriteLine($"Email sent: {message}");
         }
     }
+
+    public class SMSNotification:ISendNotification
+    {
+        public void Send(string message)
+        {
+            Console.WriteLine($"SMS sent: {message}");
+        }
+    }
 }
