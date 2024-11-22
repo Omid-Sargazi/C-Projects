@@ -1,0 +1,15 @@
+/home/omidsa/Programmings/CSharp/UnifiedType/bin/Debug/net8.0/UnifiedType
+/home/omidsa/Programmings/CSharp/UnifiedType/bin/Debug/net8.0/UnifiedType.deps.json
+/home/omidsa/Programmings/CSharp/UnifiedType/bin/Debug/net8.0/UnifiedType.runtimeconfig.json
+/home/omidsa/Programmings/CSharp/UnifiedType/bin/Debug/net8.0/UnifiedType.dll
+/home/omidsa/Programmings/CSharp/UnifiedType/bin/Debug/net8.0/UnifiedType.pdb
+/home/omidsa/Programmings/CSharp/UnifiedType/obj/Debug/net8.0/UnifiedType.GeneratedMSBuildEditorConfig.editorconfig
+/home/omidsa/Programmings/CSharp/UnifiedType/obj/Debug/net8.0/UnifiedType.AssemblyInfoInputs.cache
+/home/omidsa/Programmings/CSharp/UnifiedType/obj/Debug/net8.0/UnifiedType.AssemblyInfo.cs
+/home/omidsa/Programmings/CSharp/UnifiedType/obj/Debug/net8.0/UnifiedType.csproj.CoreCompileInputs.cache
+/home/omidsa/Programmings/CSharp/UnifiedType/obj/Debug/net8.0/UnifiedType.sourcelink.json
+/home/omidsa/Programmings/CSharp/UnifiedType/obj/Debug/net8.0/UnifiedType.dll
+/home/omidsa/Programmings/CSharp/UnifiedType/obj/Debug/net8.0/refint/UnifiedType.dll
+/home/omidsa/Programmings/CSharp/UnifiedType/obj/Debug/net8.0/UnifiedType.pdb
+/home/omidsa/Programmings/CSharp/UnifiedType/obj/Debug/net8.0/UnifiedType.genruntimeconfig.cache
+/home/omidsa/Programmings/CSharp/UnifiedType/obj/Debug/net8.0/ref/UnifiedType.dll
