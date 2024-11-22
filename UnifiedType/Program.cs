@@ -49,4 +49,14 @@ namespace UnifiedType
             Console.WriteLine($"Processing Credit Card payment of ${amount} for {CardHolder}.");
         }
     }
+
+    public class PayPal: IPaymentMethod
+    {
+        public string Email { get; set; }
+
+        public void ProcessPayment(decimal amount)
+        {
+            Console.WriteLine($"Processing PayPal payment of ${amount} for {Email}.");
+        }
+    }
 }
