@@ -65,4 +65,17 @@ namespace UnifiedType
             Console.WriteLine($"Processing PayPal payment of ${amount} for {Email}.");
         }
     }
+
+    public interface ISendNotification
+    {
+        void Send(string message);
+    }
+
+    public class EmailNotification:ISendNotification
+    {
+        public void Send(string message)
+        {
+            Console.WriteLine($"Email sent: {message}");
+        }
+    }
 }
