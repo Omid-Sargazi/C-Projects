@@ -103,4 +103,31 @@ namespace FactoryPattern
         public ICheckBox createCheckBox();
     }
 
+    public class LightThemeFactory:IUIFactory
+    {
+        public IButton createButton()
+        {
+            return new LightButton();
+        }
+
+        public ICheckBox createCheckBox()
+        {
+            return new LightCheckBox();
+        }
+    }
+
+    public class DarkThemeFactory:IUIFactory
+    {
+        public IButton createButton()
+        {
+            return new DarkButton();
+        }
+
+
+        public ICheckBox createCheckBox()
+        {
+            return new DarkCheckBox();
+        }
+    }
+
 }
