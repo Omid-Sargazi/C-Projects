@@ -49,6 +49,9 @@ namespace FactoryPattern
             }
 
         }
+
+
+
     }
 
 
@@ -128,6 +131,18 @@ namespace FactoryPattern
         {
             return new DarkCheckBox();
         }
+    }
+
+    ////////////////Abstract Factory/////////////////////////////////////
+    
+    public interface ICardPayment
+    {
+        void ProcessCardPayment(decimal amount);
+    }
+
+    public interface IBankTransfer
+    {
+        void ProcessBankTransfer(decimal amount);
     }
 
 }
