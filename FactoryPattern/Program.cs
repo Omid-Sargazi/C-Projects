@@ -145,4 +145,36 @@ namespace FactoryPattern
         void ProcessBankTransfer(decimal amount);
     }
 
+    public class USACardPayment:ICardPayment
+    {
+        public void ProcessCardPayment(decimal amount)
+        {
+            Console.WriteLine($"Processing USA card payment of ${amount}.");
+        }
+    }
+
+    public class USABankTransfer:IBankTransfer
+    {
+        public void ProcessBankTransfer(decimal amount)
+        {
+            Console.WriteLine($"Processing USA bank transfer of ${amount}.");
+        }
+    }
+
+    public class EuropeCardPayment:ICardPayment
+    {
+        public void processCardPayment(decimal amount)
+        {
+            Console.WriteLine($"Processing Europe card payment of €{amount}.");
+        }
+    }
+
+    public class EuropeBankTransfer:IBankTransfer
+    {
+        public void ProcessBankTransfer(decimal amount)
+        {
+            Console.WriteLine($"Processing Europe bank transfer of €{amount}.");
+        }
+    }
+
 }
