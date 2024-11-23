@@ -12,3 +12,4 @@
 /home/omidsa/Programmings/CSharp/FactoryPattern/obj/Debug/net7.0/FactoryPattern.pdb
 /home/omidsa/Programmings/CSharp/FactoryPattern/obj/Debug/net7.0/FactoryPattern.genruntimeconfig.cache
 /home/omidsa/Programmings/CSharp/FactoryPattern/obj/Debug/net7.0/ref/FactoryPattern.dll
+/home/omidsa/Programmings/CSharp/FactoryPattern/obj/Debug/net7.0/FactoryPattern.sourcelink.json

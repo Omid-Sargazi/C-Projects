@@ -10,7 +10,6 @@ namespace FactoryPattern
         public IShape GetShape(string shapeType)
         {
             if(string.IsNullOrEmpty(shapeType)) return null;
-        }
         switch (shapeType)
         {
             case "circle":
@@ -22,6 +21,7 @@ namespace FactoryPattern
             
             default:
                 throw new ArgumentException("Invalid Shape type");
+        }
         }
     }
 }
