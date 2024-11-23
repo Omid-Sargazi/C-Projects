@@ -8,7 +8,7 @@ namespace FactoryPattern
         {
             Console.WriteLine("Hello");
 
-            IPizza pizza = PizzaFactory.CreatePizza("peperoni");
+            IPizza pizza = PizzaFactory.CreatePizza("peperonis");
             pizza.Prepare();
         }
     }
@@ -45,9 +45,40 @@ namespace FactoryPattern
                 case "cheese":
                 return new CheesePizza();
                 default:
-                throw new ArgumentException("enter a ");
+                throw new ArgumentException("enter a valid name.. ");
             }
 
         }
     }
+
+
+
+    ////////////////////////////////////Abstarct Factory//////////////////////////////////////////////
+    
+    public interface IButton
+    {
+        void Render();
+    }
+
+    public interface ICheckBox
+    {
+        void Render();
+    }
+
+    public class LightButton:IButton
+    {
+        public void Render()
+        {
+            Console.WriteLine("Rendering a Light Button.");
+        }
+    }
+
+    public class LightCheckbox:ICheckBox
+    {
+        public void Render()
+        {
+            Console.WriteLine("Rendering a Light Checkbox.");
+        }
+    }
+
 }
