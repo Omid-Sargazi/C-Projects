@@ -1,0 +1,15 @@
+/home/omidsa/Programmings/CSharp/Delegates/bin/Debug/net8.0/Delegates
+/home/omidsa/Programmings/CSharp/Delegates/bin/Debug/net8.0/Delegates.deps.json
+/home/omidsa/Programmings/CSharp/Delegates/bin/Debug/net8.0/Delegates.runtimeconfig.json
+/home/omidsa/Programmings/CSharp/Delegates/bin/Debug/net8.0/Delegates.dll
+/home/omidsa/Programmings/CSharp/Delegates/bin/Debug/net8.0/Delegates.pdb
+/home/omidsa/Programmings/CSharp/Delegates/obj/Debug/net8.0/Delegates.GeneratedMSBuildEditorConfig.editorconfig
+/home/omidsa/Programmings/CSharp/Delegates/obj/Debug/net8.0/Delegates.AssemblyInfoInputs.cache
+/home/omidsa/Programmings/CSharp/Delegates/obj/Debug/net8.0/Delegates.AssemblyInfo.cs
+/home/omidsa/Programmings/CSharp/Delegates/obj/Debug/net8.0/Delegates.csproj.CoreCompileInputs.cache
+/home/omidsa/Programmings/CSharp/Delegates/obj/Debug/net8.0/Delegates.sourcelink.json
+/home/omidsa/Programmings/CSharp/Delegates/obj/Debug/net8.0/Delegates.dll
+/home/omidsa/Programmings/CSharp/Delegates/obj/Debug/net8.0/refint/Delegates.dll
+/home/omidsa/Programmings/CSharp/Delegates/obj/Debug/net8.0/Delegates.pdb
+/home/omidsa/Programmings/CSharp/Delegates/obj/Debug/net8.0/Delegates.genruntimeconfig.cache
+/home/omidsa/Programmings/CSharp/Delegates/obj/Debug/net8.0/ref/Delegates.dll
