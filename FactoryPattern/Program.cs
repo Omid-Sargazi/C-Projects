@@ -97,4 +97,10 @@ namespace FactoryPattern
         }
     }
 
+    public interface IUIFactory
+    {
+        public IButton createButton();
+        public ICheckBox createCheckBox();
+    }
+
 }
