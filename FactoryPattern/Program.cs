@@ -81,4 +81,20 @@ namespace FactoryPattern
         }
     }
 
+    public class DarkButton:IButton
+    {
+        public void Render()
+        {
+            Console.WriteLine("Rendering a Dark Button.");
+        }
+    }
+
+    public class DarkCheckbox:IButton
+    {
+        public void Render()
+        {
+            Console.WriteLine("Rendering a Dark Checkbox.");
+        }
+    }
+
 }
