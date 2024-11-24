@@ -5,8 +5,11 @@ using System.Threading.Tasks;
 
 namespace Core.Interfaces
 {
-    public class IUnitOfWork
+    public interface IUnitOfWork
     {
-        
+        IRepository<Book> Books { get; }
+        IRepository<Customer> Customers { get; } 
+        IRepository<Librarian> Librarian { get; }
+        Task<int> SaveChangesAsync();
     }
 }
