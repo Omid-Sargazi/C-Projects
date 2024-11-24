@@ -1,0 +1,15 @@
+/home/omidsa/Programmings/CSharp/W3SchoolCSharp/bin/Debug/net8.0/W3SchoolCSharp
+/home/omidsa/Programmings/CSharp/W3SchoolCSharp/bin/Debug/net8.0/W3SchoolCSharp.deps.json
+/home/omidsa/Programmings/CSharp/W3SchoolCSharp/bin/Debug/net8.0/W3SchoolCSharp.runtimeconfig.json
+/home/omidsa/Programmings/CSharp/W3SchoolCSharp/bin/Debug/net8.0/W3SchoolCSharp.dll
+/home/omidsa/Programmings/CSharp/W3SchoolCSharp/bin/Debug/net8.0/W3SchoolCSharp.pdb
+/home/omidsa/Programmings/CSharp/W3SchoolCSharp/obj/Debug/net8.0/W3SchoolCSharp.GeneratedMSBuildEditorConfig.editorconfig
+/home/omidsa/Programmings/CSharp/W3SchoolCSharp/obj/Debug/net8.0/W3SchoolCSharp.AssemblyInfoInputs.cache
+/home/omidsa/Programmings/CSharp/W3SchoolCSharp/obj/Debug/net8.0/W3SchoolCSharp.AssemblyInfo.cs
+/home/omidsa/Programmings/CSharp/W3SchoolCSharp/obj/Debug/net8.0/W3SchoolCSharp.csproj.CoreCompileInputs.cache
+/home/omidsa/Programmings/CSharp/W3SchoolCSharp/obj/Debug/net8.0/W3SchoolCSharp.sourcelink.json
+/home/omidsa/Programmings/CSharp/W3SchoolCSharp/obj/Debug/net8.0/W3SchoolCSharp.dll
+/home/omidsa/Programmings/CSharp/W3SchoolCSharp/obj/Debug/net8.0/refint/W3SchoolCSharp.dll
+/home/omidsa/Programmings/CSharp/W3SchoolCSharp/obj/Debug/net8.0/W3SchoolCSharp.pdb
+/home/omidsa/Programmings/CSharp/W3SchoolCSharp/obj/Debug/net8.0/W3SchoolCSharp.genruntimeconfig.cache
+/home/omidsa/Programmings/CSharp/W3SchoolCSharp/obj/Debug/net8.0/ref/W3SchoolCSharp.dll
