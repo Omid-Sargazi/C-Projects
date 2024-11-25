@@ -8,8 +8,11 @@ namespace FactoryPattern
         {
             Console.WriteLine("Hello");
 
-            IPizza pizza = PizzaFactory.CreatePizza("peperonis");
-            pizza.Prepare();
+            // IPizza pizza = PizzaFactory.CreatePizza("peperonis");
+            // pizza.Prepare();
+
+            float myNum = 15000000L;
+            Console.WriteLine(myNum);
         }
     }
 
@@ -177,4 +180,35 @@ namespace FactoryPattern
         }
     }
 
+    public interface IPaymentFactory
+    {
+        ICardPayment CreateCardPayment();
+        IBankTransfer CreateBankTransfer();
+    }
+
+    public class USAPaymentFactory:IPaymentFactory
+    {
+        public ICardPayment CreateCardPayment()
+        {
+            return new USACardPayment();
+        }
+
+        public IBankTransfer CreateBankTransfer()
+        {
+            return new USABankTransfer();
+        }
+    }
+
+    public class EuropePaymentFactory:IPaymentFactory
+    {
+        public ICardPayment CreateCardPayment()
+        {
+            return new EuropeCardPayment();
+        }
+
+        public IBankTransfer CreateBankTransfer()
+        {
+            return new EuropeBankTransfer();
+        }
+    }
 }
