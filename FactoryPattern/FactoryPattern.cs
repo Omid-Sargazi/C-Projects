@@ -7,7 +7,22 @@ namespace FactoryPattern
 {
     public class FactoryPattern
     {
-        
+        public IShape GetShape(string name)
+        {
+            if(string.IsNullOrWhiteSpace(name)) return null;
+
+            switch(name.ToLower())
+            {
+                case "circle":
+                    return new Circle();
+                case "rec":
+                return new Rectangle();
+                case "Tri":
+                return new Triangle();
+                default:
+                throw new ArgumentException("enter valid name");
+            }
+        }
     }
 
     public interface IShape
