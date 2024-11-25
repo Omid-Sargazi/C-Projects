@@ -2,6 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using MediatR;
+using Core.Interfaces;
+using AutoMapper;
+using Core.Entities;
 
 namespace Application.Features.Books.Commands
 {
