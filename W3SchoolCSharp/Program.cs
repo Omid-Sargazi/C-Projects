@@ -21,8 +21,24 @@ namespace W3SchoolCSharp
             string s2="sargazi";
 
             Console.WriteLine(string.Concat(s1, s2));
-
             Console.WriteLine($"My full name is: {s1} {s2}");
+
+            ///////////////////
+            string[] cars;
+            cars= new string[] {"BMW", "Tesla", "Benz","Ford","Mazda"};
+
+            string[] Names = {"omid","saeed","mika","saleh", "samiar"};
+
+            foreach(var x in cars)
+            {
+                Console.WriteLine(x+"\n");
+            }
+
+            foreach(var x in Names)
+            {
+                Console.Write(x+"\t");
+                Console.WriteLine("\n");
+            }
 
 
         }
