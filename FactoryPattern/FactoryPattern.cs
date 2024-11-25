@@ -22,4 +22,20 @@ namespace FactoryPattern
             Console.WriteLine("Drawing a Circle.");
         }
     }
+
+    public class Rectangle:IShape
+    {
+        public void Draw()
+        {
+            Console.WriteLine("Drawing a Rectangle.");
+        }
+    }
+
+    public class Triangle:IShape
+    {
+        public void Draw()
+        {
+            Console.WriteLine("Drawing a Triangle.");
+        }
+    }
 }
