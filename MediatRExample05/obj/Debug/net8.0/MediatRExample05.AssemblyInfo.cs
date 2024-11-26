@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MediatRExample05")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40660971fc94d88421f6154054664c840bbb8ec1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+336a641c732b63b2a61201905cc2b4c60234cf9f")]
 [assembly: System.Reflection.AssemblyProductAttribute("MediatRExample05")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MediatRExample05")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
