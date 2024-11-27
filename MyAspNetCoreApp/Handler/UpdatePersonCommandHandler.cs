@@ -8,17 +8,18 @@ using MyAspNetCoreApp.Requests;
 
 namespace MyAspNetCoreApp.Handler
 {
-    public class CreatePersonCommandHandler : IRequestHandler<CreatePersonCommand02, string>
+    public class UpdatePersonCommandHandler : IRequestHandler<UpdatePersonCommand, string>
     {
-        public Task<string> Handle(CreatePersonCommand02 request, CancellationToken cancellationToken)
+        public Task<string> Handle(UpdatePersonCommand request, CancellationToken cancellationToken)
         {
-            var newPerson = new Pesron
+            var updatedPerson = new Pesron
             {
+                Id=request.Id,
                 FirstName=request.FirstName,
                 LastName=request.LastName,
                 Age=request.Age,
             };
-            return Task.FromResult($"Person {newPerson.FirstName} {newPerson.LastName} created successfully!");
+            return Task.FromResult($"Person {updatedPerson.Id} updated successfully!");
         }
     }
 }
