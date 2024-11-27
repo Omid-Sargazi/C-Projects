@@ -48,7 +48,7 @@ public class SampleController : ControllerBase
     }
 
     [HttpPost("create-person")]
-    public async Task<IActionResult> CreatePerson([FromBody] CreatePersonCommand command)
+    public async Task<IActionResult> CreatePerson([FromBody] CreatePersonCommand02 command)
     {
         var result = await _mediator.Send(command);  // Send the command using MediatR
         return Ok(result);
