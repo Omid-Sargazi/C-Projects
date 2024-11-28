@@ -1,20 +1,17 @@
-using FluentValidation;
 using MediatR;
-using MyAspNetCoreApp.Models;
-using MyAspNetCoreApp.Validators;
+using Microsoft.Extensions.DependencyInjection;
+using MyAspNetCoreApp.Handler;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// builder.Services.AddControllers();
-// builder.Services.AddScoped<IValidator<Pesron>, PersonValidator>();
-builder.Services.AddMediatR(typeof(Program));
-builder.Services.AddControllers();
+// Register MediatR
+builder.Services.AddMediatR(typeof(AddBookCommandHandler).Assembly);
 
+// Register controllers
+builder.Services.AddControllers();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 app.MapControllers();
 
 app.Run();
