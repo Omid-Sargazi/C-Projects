@@ -22,5 +22,7 @@ namespace BookManagementSystem02.Core.Entities
             Author=author;
             ISbn=isbn;
         }
+
+        public void UpdateDetails()
     }
 }

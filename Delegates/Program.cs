@@ -16,6 +16,11 @@
            int result2 = deleg2(1000,200);
            Console.WriteLine(result2);
 
+           Deleg3 deleg3 = ()=>{
+            
+            Console.WriteLine("Hello");}
+           deleg3();
+
         }
 
        

@@ -1,0 +1,15 @@
+/home/omidsa/Programmings/CSharp/fluentvalidation/bin/Debug/net8.0/fluentvalidation
+/home/omidsa/Programmings/CSharp/fluentvalidation/bin/Debug/net8.0/fluentvalidation.deps.json
+/home/omidsa/Programmings/CSharp/fluentvalidation/bin/Debug/net8.0/fluentvalidation.runtimeconfig.json
+/home/omidsa/Programmings/CSharp/fluentvalidation/bin/Debug/net8.0/fluentvalidation.dll
+/home/omidsa/Programmings/CSharp/fluentvalidation/bin/Debug/net8.0/fluentvalidation.pdb
+/home/omidsa/Programmings/CSharp/fluentvalidation/obj/Debug/net8.0/fluentvalidation.GeneratedMSBuildEditorConfig.editorconfig
+/home/omidsa/Programmings/CSharp/fluentvalidation/obj/Debug/net8.0/fluentvalidation.AssemblyInfoInputs.cache
+/home/omidsa/Programmings/CSharp/fluentvalidation/obj/Debug/net8.0/fluentvalidation.AssemblyInfo.cs
+/home/omidsa/Programmings/CSharp/fluentvalidation/obj/Debug/net8.0/fluentvalidation.csproj.CoreCompileInputs.cache
+/home/omidsa/Programmings/CSharp/fluentvalidation/obj/Debug/net8.0/fluentvalidation.sourcelink.json
+/home/omidsa/Programmings/CSharp/fluentvalidation/obj/Debug/net8.0/fluentvalidation.dll
+/home/omidsa/Programmings/CSharp/fluentvalidation/obj/Debug/net8.0/refint/fluentvalidation.dll
+/home/omidsa/Programmings/CSharp/fluentvalidation/obj/Debug/net8.0/fluentvalidation.pdb
+/home/omidsa/Programmings/CSharp/fluentvalidation/obj/Debug/net8.0/fluentvalidation.genruntimeconfig.cache
+/home/omidsa/Programmings/CSharp/fluentvalidation/obj/Debug/net8.0/ref/fluentvalidation.dll

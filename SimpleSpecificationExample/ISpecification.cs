@@ -7,7 +7,7 @@ namespace SimpleSpecificationExample
 {
     public interface ISpecification<T>
     {
-        Expressions<Func<T,bool>> Criteria {get;}
+        Expression<Func<T,bool>> Criteria {get;}
         bool IsSatisfiedBy(T entity);        
     }
 }

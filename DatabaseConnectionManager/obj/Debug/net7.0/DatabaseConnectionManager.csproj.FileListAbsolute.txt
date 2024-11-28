@@ -1,0 +1,14 @@
+/home/omidsa/Programmings/CSharp/DatabaseConnectionManager/bin/Debug/net7.0/DatabaseConnectionManager
+/home/omidsa/Programmings/CSharp/DatabaseConnectionManager/bin/Debug/net7.0/DatabaseConnectionManager.deps.json
+/home/omidsa/Programmings/CSharp/DatabaseConnectionManager/bin/Debug/net7.0/DatabaseConnectionManager.runtimeconfig.json
+/home/omidsa/Programmings/CSharp/DatabaseConnectionManager/bin/Debug/net7.0/DatabaseConnectionManager.dll
+/home/omidsa/Programmings/CSharp/DatabaseConnectionManager/bin/Debug/net7.0/DatabaseConnectionManager.pdb
+/home/omidsa/Programmings/CSharp/DatabaseConnectionManager/obj/Debug/net7.0/DatabaseConnectionManager.GeneratedMSBuildEditorConfig.editorconfig
+/home/omidsa/Programmings/CSharp/DatabaseConnectionManager/obj/Debug/net7.0/DatabaseConnectionManager.AssemblyInfoInputs.cache
+/home/omidsa/Programmings/CSharp/DatabaseConnectionManager/obj/Debug/net7.0/DatabaseConnectionManager.AssemblyInfo.cs
+/home/omidsa/Programmings/CSharp/DatabaseConnectionManager/obj/Debug/net7.0/DatabaseConnectionManager.csproj.CoreCompileInputs.cache
+/home/omidsa/Programmings/CSharp/DatabaseConnectionManager/obj/Debug/net7.0/DatabaseConnectionManager.dll
+/home/omidsa/Programmings/CSharp/DatabaseConnectionManager/obj/Debug/net7.0/refint/DatabaseConnectionManager.dll
+/home/omidsa/Programmings/CSharp/DatabaseConnectionManager/obj/Debug/net7.0/DatabaseConnectionManager.pdb
+/home/omidsa/Programmings/CSharp/DatabaseConnectionManager/obj/Debug/net7.0/DatabaseConnectionManager.genruntimeconfig.cache
+/home/omidsa/Programmings/CSharp/DatabaseConnectionManager/obj/Debug/net7.0/ref/DatabaseConnectionManager.dll

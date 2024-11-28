@@ -15,7 +15,7 @@ namespace CompileExample
             _minPrice = minPrice;
         }
 
-        public Expression<Func<Product,bool>> Criteria=>product=>product.Price>=minPrice;
+        public Expression<Func<Product,bool>> Criteria=>product=>product.Price>=_minPrice;
 
         public bool IsSatisfiedBy(Product product)
         {

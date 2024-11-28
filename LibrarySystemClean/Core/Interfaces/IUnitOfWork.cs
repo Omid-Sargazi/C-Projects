@@ -10,7 +10,7 @@ namespace Core.Interfaces
     {
         IRepository<Book> Books { get; }
         IRepository<Customer> Customers { get; } 
-        IRepository<Librarian> Librarian { get; }
-        Task<int> SaveChangesAsync();
+        IRepository<Librarian> Librarians { get; }
+        Task<int> CompleteAsync();
     }
 }

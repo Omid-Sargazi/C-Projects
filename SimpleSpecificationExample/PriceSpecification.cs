@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Linq.Expressions;
 
 namespace SimpleSpecificationExample
 {
@@ -14,7 +15,7 @@ namespace SimpleSpecificationExample
             _minPrice = minPrice;
         }
 
-        public Expression<Func<Product,bool>> Criteria => product=>product.Price>=_minPrice;
+        public Expression<Func<Product, bool>> Criteria => product => product.Price >= _minPrice;
 
         public bool IsSatisfiedBy(Product product)
         {

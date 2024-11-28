@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("fluentvalidation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b61532808767431c3412f15f22c741a63fc323f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a85fabb2f0b59edbf33360dbe4d26e553bd2ce0e")]
 [assembly: System.Reflection.AssemblyProductAttribute("fluentvalidation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("fluentvalidation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

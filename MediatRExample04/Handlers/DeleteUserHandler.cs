@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using MediatRExample04.Commands;
 
 namespace MediatRExample04.Handlers
 {

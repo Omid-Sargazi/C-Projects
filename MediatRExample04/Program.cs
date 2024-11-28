@@ -3,6 +3,7 @@ using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using System.Threading.Tasks;
 using MediatRExample04.Commands;
+using MediatRExample04.Handlers;
 
 namespace MediatRExample04
 {
@@ -17,9 +18,16 @@ namespace MediatRExample04
             var provider = services.BuildServiceProvider();
             var mediator = provider.GetRequiredService<IMediator>();
 
-            var command = new CreateUserCommand{UserName="Omid"};
-            var result = await mediator.Send(command);
-            Console.WriteLine(""+ result);
+             var createUserCommand = new CreateUserCommand { UserName = "Omid" };
+            var createResult = await mediator.Send(createUserCommand);
+            Console.WriteLine(createResult);
+
+            // Sending DeleteUserCommand
+            var deleteUserCommand = new DeleteUserCommand { UserName = "Omid" };
+            var deleteResult = await mediator.Send(deleteUserCommand);
+            Console.WriteLine(deleteResult);
+
+
         }
     }
 }

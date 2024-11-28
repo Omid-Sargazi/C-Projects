@@ -34,7 +34,7 @@ namespace UnifiedType
             var notificationService = new NotificationService();
             notificationService.NotificationSent += (msg) => Console.WriteLine($"Log: Notification sent - {msg}");
             notificationService.Notify(emailNotifier, "Hello via Email!");
-        notificationService.Notify(smsNotifier, "Hello via SMS!");
+            notificationService.Notify(smsNotifier, "Hello via SMS!");
 
         }
     }

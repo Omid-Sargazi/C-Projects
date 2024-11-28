@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace BookManagementSystem02.Infrastructure.Data
 {
-    public class BookRepository
+    public class BookRepository:IBookRepository
     {
         
     }

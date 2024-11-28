@@ -1,3 +1,11 @@
+/home/omidsa/Programmings/CSharp/LibrarySystemClean/API/obj/Debug/net8.0/API.csproj.AssemblyReference.cache
+/home/omidsa/Programmings/CSharp/LibrarySystemClean/API/obj/Debug/net8.0/API.GeneratedMSBuildEditorConfig.editorconfig
+/home/omidsa/Programmings/CSharp/LibrarySystemClean/API/obj/Debug/net8.0/API.AssemblyInfoInputs.cache
+/home/omidsa/Programmings/CSharp/LibrarySystemClean/API/obj/Debug/net8.0/API.AssemblyInfo.cs
+/home/omidsa/Programmings/CSharp/LibrarySystemClean/API/obj/Debug/net8.0/API.csproj.CoreCompileInputs.cache
+/home/omidsa/Programmings/CSharp/LibrarySystemClean/API/obj/Debug/net8.0/API.MvcApplicationPartsAssemblyInfo.cs
+/home/omidsa/Programmings/CSharp/LibrarySystemClean/API/obj/Debug/net8.0/API.MvcApplicationPartsAssemblyInfo.cache
+/home/omidsa/Programmings/CSharp/LibrarySystemClean/API/obj/Debug/net8.0/API.sourcelink.json
 /home/omidsa/Programmings/CSharp/LibrarySystemClean/API/bin/Debug/net8.0/appsettings.Development.json
 /home/omidsa/Programmings/CSharp/LibrarySystemClean/API/bin/Debug/net8.0/appsettings.json
 /home/omidsa/Programmings/CSharp/LibrarySystemClean/API/bin/Debug/net8.0/API
@@ -158,14 +166,6 @@
 /home/omidsa/Programmings/CSharp/LibrarySystemClean/API/bin/Debug/net8.0/Infrastructure.pdb
 /home/omidsa/Programmings/CSharp/LibrarySystemClean/API/bin/Debug/net8.0/Application.pdb
 /home/omidsa/Programmings/CSharp/LibrarySystemClean/API/bin/Debug/net8.0/Core.pdb
-/home/omidsa/Programmings/CSharp/LibrarySystemClean/API/obj/Debug/net8.0/API.csproj.AssemblyReference.cache
-/home/omidsa/Programmings/CSharp/LibrarySystemClean/API/obj/Debug/net8.0/API.GeneratedMSBuildEditorConfig.editorconfig
-/home/omidsa/Programmings/CSharp/LibrarySystemClean/API/obj/Debug/net8.0/API.AssemblyInfoInputs.cache
-/home/omidsa/Programmings/CSharp/LibrarySystemClean/API/obj/Debug/net8.0/API.AssemblyInfo.cs
-/home/omidsa/Programmings/CSharp/LibrarySystemClean/API/obj/Debug/net8.0/API.csproj.CoreCompileInputs.cache
-/home/omidsa/Programmings/CSharp/LibrarySystemClean/API/obj/Debug/net8.0/API.MvcApplicationPartsAssemblyInfo.cs
-/home/omidsa/Programmings/CSharp/LibrarySystemClean/API/obj/Debug/net8.0/API.MvcApplicationPartsAssemblyInfo.cache
-/home/omidsa/Programmings/CSharp/LibrarySystemClean/API/obj/Debug/net8.0/API.sourcelink.json
 /home/omidsa/Programmings/CSharp/LibrarySystemClean/API/obj/Debug/net8.0/staticwebassets.build.json
 /home/omidsa/Programmings/CSharp/LibrarySystemClean/API/obj/Debug/net8.0/staticwebassets.development.json
 /home/omidsa/Programmings/CSharp/LibrarySystemClean/API/obj/Debug/net8.0/staticwebassets/msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props
