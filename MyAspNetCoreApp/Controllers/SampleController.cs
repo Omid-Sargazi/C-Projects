@@ -1,46 +1,89 @@
+// using MediatR;
+// using Microsoft.AspNetCore.Mvc;
+// using MyAspNetCoreApp.Requests;
+// using System.Threading.Tasks;
+
+// [ApiController]
+// [Route("api/[controller]")]
+// public class OrderController : ControllerBase
+// {
+//     private readonly IMediator _mediator;
+
+//     public OrderController(IMediator mediator)
+//     {
+//         _mediator = mediator;
+//     }
+
+//     [HttpPost("create")]
+//     public async Task<IActionResult> CreateOrder([FromBody] CreateOrderCommand command)
+//     {
+//         var result = await _mediator.Send(command);
+//         return Ok(result);
+//     }
+
+//     [HttpGet("{id}")]
+//     public async Task<IActionResult> GetOrder(int id)
+//     {
+//         var result = await _mediator.Send(new GetOrderQuery { Id = id });
+//         return result != null ? Ok(result) : NotFound($"Order with ID {id} not found.");
+//     }
+
+//     [HttpPut("{id}/status")]
+//     public async Task<IActionResult> UpdateOrderStatus(int id, [FromBody] string newStatus)
+//     {
+//         var result = await _mediator.Send(new UpdateOrderStatusCommand { Id = id, NewStatus = newStatus });
+//         return Ok(result);
+//     }
+
+//     [HttpDelete("{id}")]
+//     public async Task<IActionResult> DeleteOrder(int id)
+//     {
+//         var result = await _mediator.Send(new DeleteOrderCommand { Id = id });
+//         return Ok(result);
+//     }
+// }
+
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using MyAspNetCoreApp.Requests;
 using System.Threading.Tasks;
 
-[Route("api/[controller]")]
+
 [ApiController]
-public class BookController : ControllerBase
+[Route("api/[controller]")]
+public class OrderController:ControllerBase
 {
     private readonly IMediator _mediator;
-
-    public BookController(IMediator mediator)
+    public OrderController(IMediator mediator)
     {
         _mediator = mediator;
     }
 
-    [HttpPost("add")]
-    public async Task<IActionResult> AddBook([FromBody] AddBookCommand command)
+    [HttpPost("create")]
+    public async Task<IActionResult> CreateOrder([FromBody] CreateOrderCommand command)
     {
         var result = await _mediator.Send(command);
         return Ok(result);
     }
 
     [HttpGet("{id}")]
-    public async Task<IActionResult> GetBook(int id)
+    public async Task<IActionResult> GetOrder(int id)
     {
-        var query = new GetBookQuery { Id = id };
-        var result = await _mediator.Send(query);
-        return result != null ? Ok(result) : NotFound("Book not found");
+        var result = await _mediator.Send( new GetOrderQuery{Id=id});
+        return result !=null ?Ok(result):NotFound($"Order with ID {id} not found.");
     }
 
-    [HttpPut("update")]
-    public async Task<IActionResult> UpdateBook([FromBody] UpdateBookCommand command)
+    [HttpPut("{id}/ststus")]
+    public async Task<IActionResult> UpdateOrderStatus(int id,[FromBody] string newStatus)
     {
-        var result = await _mediator.Send(command);
+        var result = await _mediator.Send(new UpdateOrderStatusCommand {Id=id, NewStatus=newStatus});
         return Ok(result);
     }
 
-    [HttpDelete("delete/{id}")]
-    public async Task<IActionResult> DeleteBook(int id)
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> DeleteOrder(int id)
     {
-        var command = new DeleteBookCommand { Id = id };
-        var result = await _mediator.Send(command);
+        var result = await _mediator.Send(new DeleteOrderCommand {Id=id});
         return Ok(result);
     }
 }
