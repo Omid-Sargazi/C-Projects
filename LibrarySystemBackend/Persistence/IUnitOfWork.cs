@@ -9,6 +9,8 @@ namespace LibrarySystemBackend.Persistence
     public interface IUnitOfWork : IDisposable
     {
         IRepository<Book> books {get;}
+        IRepository<Member> members {get;}
+        IRepository<BorrowRecord> borrows {get;}
         Task SaveChangesAsync();
        
     }
