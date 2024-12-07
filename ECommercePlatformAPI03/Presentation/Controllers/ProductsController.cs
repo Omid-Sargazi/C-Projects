@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Application.Validators;
 using Domain.Entities;
 using Infrastructure.Data;
 using Microsoft.AspNetCore.Mvc;
@@ -39,22 +40,32 @@ namespace Presentation.Controllers
         [HttpPost]
         public IActionResult CreateProduct([FromBody] Product product)
         {
-            if(!ModelState.IsValid)
-            return BadRequest(ModelState);
+            var validator = new ProductValidator();
+            var validationResult = validator.Validate(product);
+            if(!validationResult.IsValid)
+            {
+                return BadRequest(validationResult.Errors);
+            }
             _context.Products.Add(product);
             _context.SaveChanges();
 
             return CreatedAtAction(nameof(GetProductById),new {id=product.Id},product);
         }
 
-        [HttpPost("{id}")]
+        [HttpPut("{id}")]
         public IActionResult UpdateProduct(int id,[FromBody] Product updatedProduct)
         {
+
             var product = _context.Products.Find(id);
             if(product==null)
             {
                 return NotFound();
             }
+
+            var validator = new ProductValidator();
+            var validationResult = validator.Validate(updatedProduct);
+            if(!validationResult.IsValid)
+                return BadRequest(validationResult.Errors);
 
             product.Name = updatedProduct.Name;
             product.Description=updatedProduct.Description;
