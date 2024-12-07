@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Domain.Entities;
 using Infrastructure.Data;
 using Microsoft.AspNetCore.Mvc;
 
@@ -33,6 +34,17 @@ namespace Presentation.Controllers
                 return NotFound();
             }
             return Ok(product);
+        }
+
+        [HttpPost]
+        public IActionResult CreateProduct([FromBody] Product product)
+        {
+            if(!ModelState.IsValid)
+            return BadRequest(ModelState);
+            _context.Products.Add(product);
+            _context.SaveChanges();
+
+            return CreatedAtAction(nameof(GetProductById),new {id=product.Id},product);
         }
 
         
