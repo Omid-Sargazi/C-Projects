@@ -23,6 +23,18 @@ namespace Presentation.Controllers
             var products = _context.Products.ToList();
             return Ok(products);
         }
+
+        [HttpGet("{id}")]
+        public IActionResult GetProductById(int id)
+        {
+            var product = _context.Products.Find(id);
+            if(product == null)
+            {
+                return NotFound();
+            }
+            return Ok(product);
+        }
+
         
     }
 }
