@@ -47,6 +47,24 @@ namespace Presentation.Controllers
             return CreatedAtAction(nameof(GetProductById),new {id=product.Id},product);
         }
 
+        [HttpPost("{id}")]
+        public IActionResult UpdateProduct(int id,[FromBody] Product updatedProduct)
+        {
+            var product = _context.Products.Find(id);
+            if(product==null)
+            {
+                return NotFound();
+            }
+
+            product.Name = updatedProduct.Name;
+            product.Description=updatedProduct.Description;
+            product.Stock=updatedProduct.Stock;
+            product.Price=updatedProduct.Price;
+
+            _context.SaveChanges();
+            return NoContent();
+        }
+
         
     }
 }
