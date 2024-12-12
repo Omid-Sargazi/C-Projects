@@ -1,0 +1,12 @@
+/home/omidsa/Programmings/CSharp/LeaveManagementSystem/LeaveManagement.Domain/bin/Debug/net8.0/LeaveManagement.Domain.deps.json
+/home/omidsa/Programmings/CSharp/LeaveManagementSystem/LeaveManagement.Domain/bin/Debug/net8.0/LeaveManagement.Domain.dll
+/home/omidsa/Programmings/CSharp/LeaveManagementSystem/LeaveManagement.Domain/bin/Debug/net8.0/LeaveManagement.Domain.pdb
+/home/omidsa/Programmings/CSharp/LeaveManagementSystem/LeaveManagement.Domain/obj/Debug/net8.0/LeaveManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/omidsa/Programmings/CSharp/LeaveManagementSystem/LeaveManagement.Domain/obj/Debug/net8.0/LeaveManagement.Domain.AssemblyInfoInputs.cache
+/home/omidsa/Programmings/CSharp/LeaveManagementSystem/LeaveManagement.Domain/obj/Debug/net8.0/LeaveManagement.Domain.AssemblyInfo.cs
+/home/omidsa/Programmings/CSharp/LeaveManagementSystem/LeaveManagement.Domain/obj/Debug/net8.0/LeaveManagement.Domain.csproj.CoreCompileInputs.cache
+/home/omidsa/Programmings/CSharp/LeaveManagementSystem/LeaveManagement.Domain/obj/Debug/net8.0/LeaveManagement.Domain.sourcelink.json
+/home/omidsa/Programmings/CSharp/LeaveManagementSystem/LeaveManagement.Domain/obj/Debug/net8.0/LeaveManagement.Domain.dll
+/home/omidsa/Programmings/CSharp/LeaveManagementSystem/LeaveManagement.Domain/obj/Debug/net8.0/refint/LeaveManagement.Domain.dll
+/home/omidsa/Programmings/CSharp/LeaveManagementSystem/LeaveManagement.Domain/obj/Debug/net8.0/LeaveManagement.Domain.pdb
+/home/omidsa/Programmings/CSharp/LeaveManagementSystem/LeaveManagement.Domain/obj/Debug/net8.0/ref/LeaveManagement.Domain.dll
